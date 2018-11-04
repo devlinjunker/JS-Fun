@@ -4,3 +4,4 @@
 app/
 template/
 
+**/node_modules
