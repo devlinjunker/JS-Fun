@@ -1,0 +1,17 @@
+{
+  "name": "test.docsify",
+  "version": "0.1.0",
+  "description": "Testing Docsify Library for creating easy documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-docs": "./node_modules/.bin/docsify serve docs",
+    "serve-bg": "./node_modules/.bin/docsify serve docs > docsify.log & echo $! > docsify.pid",
+    "stop": "if [ -e docsify.pid ]; then kill -9 `less docsify.pid`; rm docsify.pid; fi"
+  },
+  "author": "devlin.junker@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
+  }
+}
