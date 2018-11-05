@@ -4,7 +4,7 @@ Testing a docsify project, setting different configurations and getting ideas fo
 
 [Continue Learning](https://docsify.js.org/#/plugins)
   
-  
+> .nojekyll file is useful so git inclues files beginning with `_`  
   
 ## Options
 Describing the different configuration options available and explored:
