@@ -1,3 +1,11 @@
 [submodule "cli"]
 	path = sol/cli
 	url = https://github.com/devlinjunker/cli.js.git
+
+[submodule "app.walmart.api"]
+	path = sol/app.walmart.api
+	url = https://github.com/devlinjunker/app.walmart.api.git
+
+[submodule "app.walmart.fend"]
+	path = sol/app.walmart.fend
+	url = https://github.com/devlinjunker/app.walmart.fend.git
