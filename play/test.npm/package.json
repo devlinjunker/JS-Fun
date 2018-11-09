@@ -1,0 +1,11 @@
+{
+  "name": "test.npm",
+  "version": "1.0.0",
+  "description": "a test of an npm package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "author": "djunker",
+  "license": "ISC"
+}
