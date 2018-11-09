@@ -2,7 +2,7 @@
 
 A repository for practicing and playing around with JavaScript. I will store any small apps and problem solutions that I create with  no larger use. It will also contain my test projects for libraries, and practice setups where I combine and test these libraries/ configs for better understanding.
 
-## play
+## [play](play)
   Contains projects for testing and playing with specific libraries and the functions they provide
 
 
