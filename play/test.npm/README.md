@@ -1,5 +1,4 @@
-# Test Project for Managing Learning about Node
-
+# Node Development Notes
 Markdown Cheatsheet:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
@@ -10,7 +9,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 4) edit package.json scripts to edit build process
 
 
-## Folder Structure
+## Idea for Folder Structure
 
 |-- package.json  
 |-- other config files  
@@ -76,7 +75,7 @@ precompiled JS files (React/Wbepack especially)
 [x] MySQL?  
 [x] elasticsearch  
 [] ECMA6 interface/extensions? (task, elastic_task, mongo_task, mysql_task, task_manager, app using task manager and instantiating elastic_task vs mongo_task)  
-&nbsp;&nbsp; - interface not needed because javascript weak typing (what about flow?)
+&nbsp;&nbsp; - interface not needed because javascript weak typing (what about flow?)  
 
 
 ### HTMl5/Canvas
@@ -101,21 +100,21 @@ http://www.material-ui.com/#/get-started/installation
 ### Continuous Integration
 [] Travis CI  
 [] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
-[x] EsDoc Badge (See EsDoc)  
+[x] EsDoc Badge (See EsDoc)   
 
 ### Other
 [x] Basic Node Project  
 [x] Node Library Project (then imported)  
 [x] ec Node Library  
-[c] ec modules
+[c] ec modules  
 
 ## CSS
-[] https://maintainablecss.com/chapters/semantics/
+[] https://maintainablecss.com/chapters/semantics/  
 
 ### Ideas
-[c] CLI Node Library
-[] SkyRepo Node Libraries
-[] Tasker Server/Client App (Goals, Desires, Chores)  
+[c] CLI Node Library  
+[] SkyRepo Node Libraries  
+[] Tasker Server/Client App (Goals, Desires, Chores)   
 [] Portfolio website (Probably Wordpress)  
 [] Javascript Game (Soccer? Bouncing ball moving?)  
 [] Graphical Node/Web based interface  
