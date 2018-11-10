@@ -8,5 +8,5 @@ These are the test projects I create for exploring libraries and build tools. I 
 ## [Babel](/play/test.babel/)
  Playing around with babel compilation. Example application and testing ecma6 classes.
 
-## [ESDoc](/play/test.esdoc/docs)
- Example of ESDoc Static pages generated. 
+## [ESDoc](/play/test.esdoc/)
+ Example of ESDoc Static pages generated.

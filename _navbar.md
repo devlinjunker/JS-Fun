@@ -3,7 +3,7 @@
   * [JS Notes](play/test.npm/)
   * [Docsify JS](play/test.docsify/docs/)
   * [Babel](play/test.babel/)
-  * [ESDoc](play/test.esdoc/doc/)
+  * [ESDoc](play/test.esdoc/)
 * Solutions
   * Quick CLI
   * [Walmart](sol/walmart.md)

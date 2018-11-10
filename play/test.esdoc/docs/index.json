@@ -778,7 +778,7 @@
   },
   {
     "kind": "index",
-    "content": "# esdoc test application\n\nThis is an example of how to use esdoc\n\nto get the manual you have to set the manual option in the .esdoc.json file\n\nView the badge at docs/badge.svg like so: ![](./docs/badge.svg)\n\n## Usage\n`npm run doc` to generate static doc\n\n## Project Setup\n\n``npm install esdoc esdoc-standard-plugin``  \nCreate .esdoc.json:  \n```\n{  \n  \"source\": \"./src\",  \n  \"destination\": \"./docs\",  \n  \"plugins\": [{\"name\":\"esdoc-standard-plugin\"}]  \n}\n```  \n``./node_modules/.bin/esdoc``\n",
+    "content": "# esdoc test application\n\nThis is an example using ESDoc to generate static javadoc style documentation pages for a javascript project.  \n\nView the generated docsite [here](/play/test.esdoc/docs/index.html)\n\n**Notes:**  \nView the badge at docs/badge.svg like so:   \n\n![](./badge.svg) (on docsite)\n\n![](./docs/badge.svg) (on README.md)\n\n\n**ToDo:**  \n[ ] To get the manual you have to set the manual option in the .esdoc.json file [???]  \n\n## Usage\n`npm run doc` to generate static doc in docs folder  \n`open docs/index.html` to browse local file system or host docs folder with server of choice\n\n## Project Setup\n\n``npm install esdoc esdoc-standard-plugin``  \nCreate .esdoc.json:  \n```\n{  \n  \"source\": \"./src\",  \n  \"destination\": \"./docs\",  \n  \"plugins\": [{\"name\":\"esdoc-standard-plugin\"}]  \n}\n```  \n``./node_modules/.bin/esdoc``\n",
     "longname": "/Users/djunker/js/play/test.esdoc/README.md",
     "name": "./README.md",
     "static": true,

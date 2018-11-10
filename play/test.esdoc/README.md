@@ -1,13 +1,22 @@
 # esdoc test application
 
-This is an example of how to use esdoc
+This is an example using ESDoc to generate static javadoc style documentation pages for a javascript project.  
 
-to get the manual you have to set the manual option in the .esdoc.json file
+View the generated docsite [here](/play/test.esdoc/docs/index.html)
 
-View the badge at docs/badge.svg like so: ![](./docs/badge.svg)
+**Notes:**  
+View the badge at docs/badge.svg like so:   
+
+![](./badge.svg) (on docsite)
+
+![](./docs/badge.svg) (on README.md)
+
+
+**ToDo:**  
+[ ] To get the manual you have to set the manual option in the .esdoc.json file [???]  
 
 ## Usage
-`npm run doc` to generate static doc in docs folder
+`npm run doc` to generate static doc in docs folder  
 `open docs/index.html` to browse local file system or host docs folder with server of choice
 
 ## Project Setup

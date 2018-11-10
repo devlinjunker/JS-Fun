@@ -25,9 +25,9 @@ ECMA6 Class Test:
 Notes:  
 This is bad composition for a program, don't want to fill up the stack with recursive frames  
 
-** Setup:**  
+**Setup:**  
 ``npm install babel-cli babel-preset-env``  
-``echo "{ "presets" : ["env"]}" >> .babelrc``
+``echo "{ "presets" : ["env"]}" >> .babelrc``  
 ``./node_modules/babel-cli/bin/babel.js src/ -d dist``  
 ``node dist/index.js``  
 
@@ -44,5 +44,5 @@ and built in one file with anonymous closure (var loop = function(){})()
 of module (Two examples, const/var/let and if callback vs switch statement)  
 
 Questions:  
-1) Which is more efficient? Module export vs inline index.js?
+1) Which is more efficient? Module export vs inline index.js?  
 2) Does the variable definition (const/var/let) matter?
