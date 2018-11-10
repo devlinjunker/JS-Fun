@@ -1,0 +1,19 @@
+{
+  "name": "test.flow",
+  "version": "1.0.0",
+  "description": "testing flow static typing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@localhost/Users/git/test.flow.git"
+  },
+  "author": "djunker",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "flow-bin": "^0.55.0"
+  },
+  "scripts": {
+    "test": "eval 'if [ ! -e .flowconfig ]; then node_modules/flow-bin/cli.js init; fi'; node_modules/flow-bin/cli.js"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "test.browserify",
+  "version": "1.0.0",
+  "description": "Testing browserify",
+  "main": "index.js",
+  "author": "djunker",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "uniq": "^1.0.1"
+  },
+  "scripts": {
+    "browserify": "./node_modules/.bin/browserify index.js -o public/bundle.js",
+    "test": "npm run browserify",
+  }
+}
