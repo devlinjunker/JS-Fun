@@ -1,6 +1,6 @@
 # Test Installing CASS Project
 
-Using cass classes in a node project
+Using Eduworks CASS classes in a node project based on the libraries that Fritz wrote
 
 ## Process
 

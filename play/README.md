@@ -4,3 +4,9 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 ## [Docsify](/play/test.docsify/docs/)
  Quick Web Server and Markdown framework for hosting documentation. This will be used to host most of my notes for some of these projects. However I will also likely use ESDoc for hosting (although it generates static pages vs dynamic with docsify, so I will have to look into this)
+
+## [Babel](/play/test.babel/)
+ Playing around with babel compilation. Example application and testing ecma6 classes.
+
+## [ESDoc](/play/test.esdoc/docs)
+ Example of ESDoc Static pages generated. 
