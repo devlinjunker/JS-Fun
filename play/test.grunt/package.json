@@ -1,0 +1,17 @@
+{
+  "name": "test.grunt",
+  "version": "1.0.0",
+  "description": "testing grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "djunker",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }

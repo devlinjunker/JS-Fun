@@ -1,0 +1,14 @@
+{
+  "name": "test.uselib",
+  "version": "1.0.0",
+  "description": "testing using a node library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "author": "djunker",
+  "license": "ISC",
+  "dependencies": {
+    "test.lib": "../lib"
+  }
+}
