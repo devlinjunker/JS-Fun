@@ -29,10 +29,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 ## Ideas
 Libraries and Project Ideas
+
 ### Build
-[..] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
-&nbsp;&nbsp;Need to explore HtmlWebpackPlugin if templating index.html page  
-&nbsp;&nbsp;https://webpack.js.org/guides/hot-module-replacement/  
 [x] Babel - ECMA6 Compiling - Needed for Flow Static Type Compiling too  
 [x] Flow -  Static Type Checker (Extension of Javascript) - Seem to need Babel
 (or Webpack?) for this...  
@@ -49,6 +47,9 @@ also beautify js and atom beautify for formatting
 &nbsp;&nbsp;https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
 
 [ ] Above + Webpack + Uglify  
+[..] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
+&nbsp;&nbsp;Need to explore HtmlWebpackPlugin if templating index.html page  
+&nbsp;&nbsp;https://webpack.js.org/guides/hot-module-replacement/  
 [ ] Webpack FEND  
 [ ] Webpack API  
 
