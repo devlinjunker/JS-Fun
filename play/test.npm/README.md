@@ -1,4 +1,4 @@
-# Node Development Notes
+# Node Development Ideas
 Markdown Cheatsheet:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
@@ -11,20 +11,24 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 ## Idea for Folder Structure
 
+```
 |-- package.json  
 |-- other config files  
 |-- src/  
+|---- index.js <- calls app.js  
+|---- app.js <- CLI  
+|---- app.spec.js <- tests app.js
+|---- server.js <- runs server with rest intefaces  
+|---- client.js <- client code  
+|---- common/  
 |-- dist/  (if non web app)  
 |-- public/  (if web app)  
-
-### src structure
-index.js <- calls app.js  
-app.js <- CLI  
-server.js <- runs server with rest intefaces  
-client.js <- client code  
-common/  
+|-- test <-- for test config
+|-- e2e
+```
 
 ## Ideas
+Libraries and Project Ideas
 ### Build
 [..] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
 &nbsp;&nbsp;Need to explore HtmlWebpackPlugin if templating index.html page  
@@ -44,7 +48,9 @@ also beautify js and atom beautify for formatting
 [x] Babel + Flow + EsDoc + EsLint + Prettier
 &nbsp;&nbsp;https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
 
-[] Above + Webpack + Uglify
+[ ] Above + Webpack + Uglify  
+[ ] Webpack FEND  
+[ ] Webpack API  
 
 
 Q: Refactoring in atom? (on file basis)  
@@ -63,11 +69,16 @@ precompiled JS files (React/Wbepack especially)
 [x] Chai (Assertion Library)  
 [x] Istanbul (Code Coverage - mix with other testing library)  
 &nbsp;&nbsp;Need to look into report formats more  
-[] Postman (APIs)  
-[] Nightwatch (user experience validation)  
-[c] Jest  (React components)
+[ ] Postman (APIs)  
+[ ] Nightwatch (user experience validation)  
+[ ] Jest  (React components)  
 [x] Winston - Logging  
-&nbsp;&nbsp;https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/
+&nbsp;&nbsp;https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
+[ ] Mocha vs Jasmine Comparison Repo
+&nbsp;&nbsp; Practice Global files  
+[ ] Protractor  
+[ ] Cucumber    
+[ ] Cucumber + E2E (Protractor/Nightwatch)
 
 ### Databases
 [x] MongoDB?  
@@ -79,43 +90,50 @@ precompiled JS files (React/Wbepack especially)
 
 
 ### HTMl5/Canvas
-[c] Paper.js  
-[] Easel.js  
+[ ] Paper.js  
+[ ] Easel.js  
 &nbsp;&nbsp;http://www.createjs.com/demos/easeljs/spritesheet  
-[] d3.js  
+[ ] d3.js  
 
 ### Frameworks
 [..] React  
  https://facebook.github.io/react/docs/conditional-rendering.html  
  https://facebook.github.io/react/tutorial/tutorial.html  
-[] Express.js  
-[c] Meteor  
+[ ] Express.js  
+[ ] Meteor  
 https://www.meteor.com/tutorials/react/creating-an-app  
 https://guide.meteor.com/index.html  
-[] Redux  
-[] Angular  
-[] Material UI  
-http://www.material-ui.com/#/get-started/installation  
+[ ] Redux  
+[ ] Angular 2  
+[ ] Material UI  
+http://www.material-ui.com/#/get-started/installation   
+[ ] React Native  
 
 ### Continuous Integration
-[] Travis CI  
-[] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
+[ ] Travis CI  
+[ ] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
 [x] EsDoc Badge (See EsDoc)   
+[ ] Gitlab instance  
+[ ] Githooks
 
 ### Other
 [x] Basic Node Project  
 [x] Node Library Project (then imported)  
-[x] ec Node Library  
-[c] ec modules  
+[ ] Howler Audio Library  
+[ ] Performance Testing  
+[ ] Logging/Kibana  
+[ ] Websocket test
 
-## CSS
-[] https://maintainablecss.com/chapters/semantics/  
+### CSS
+[ ] https://maintainablecss.com/chapters/semantics/  
 
-### Ideas
-[c] CLI Node Library  
-[] SkyRepo Node Libraries  
-[] Tasker Server/Client App (Goals, Desires, Chores)   
-[] Portfolio website (Probably Wordpress)  
-[] Javascript Game (Soccer? Bouncing ball moving?)  
-[] Graphical Node/Web based interface  
-[] AI Sandbox/CTF type thing?  
+### Projects
+[x] CLI Node Library  
+[ ] Encrypted DB Node Libraries  
+[ ] Tasker Server/Client App (Goals, Desires, Chores)   
+[ ] Portfolio website (Probably Wordpress)  
+[ ] Javascript Game (Soccer? Bouncing ball moving?)  
+[ ] Graphical Node/Web based interface  
+[ ] AI Sandbox/CTF type thing?  
+[ ] Browser Game  
+[ ] Node Game  

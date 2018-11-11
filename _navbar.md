@@ -1,6 +1,6 @@
 * [Home](/)
-* [JS Notes](play/test.npm/)
-* [Play](play/)
+* [Ideas](play/test.npm/)
+* [Playground](play/)
   * [Docsify JS](play/test.docsify/docs/)
   * [Babel](play/test.babel/)
   * [ESDoc](play/test.esdoc/)
