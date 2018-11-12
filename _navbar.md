@@ -5,6 +5,7 @@
   * [Babel](play/test.babel/)
   * [ESDoc](play/test.esdoc/)
   * [ESLint](play/test.eslint/)
+  * [Mocha](play/test.mocha/)
 * Solutions
   * Quick CLI
   * [Walmart](sol/walmart.md)

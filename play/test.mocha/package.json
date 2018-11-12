@@ -1,0 +1,26 @@
+{
+  "name": "test.mocha",
+  "version": "1.0.0",
+  "description": "testing the mocha test framework",
+  "main": "src/index.js",
+  "dependencies": {
+    "esdoc": "^1.0.3",
+    "esdoc-standard-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1"
+  },
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@macmini/Users/git/test.mocha.git"
+  },
+  "author": "djunker",
+  "license": "ISC"
+}

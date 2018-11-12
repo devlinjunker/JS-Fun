@@ -9,4 +9,10 @@ These are the test projects I create for exploring libraries and build tools. I 
  Playing around with babel compilation. Example application and testing ecma6 classes.
 
 ## [ESDoc](/play/test.esdoc/)
- Example of ESDoc Static pages generated.
+ Using ESDoc to generate static pages. This is an example of those pages and a few usage examples.
+
+## [ESLint](/play/test.eslint/)
+ Finding the rules that match my style of JavaScript coding.
+
+## [Mocha](/play/test.mocha/)
+  Test project for the Mocha framework for JavaScript Unit tests.
