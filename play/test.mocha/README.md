@@ -11,6 +11,7 @@ Also EsDoc will display tests, just needed to configure .esdoc.json
 [ ] Test Coverage saved in files  
 [ ] Chai and Chai as promised  
 [ ] Sinon  
+[ ] Read about best practices  
 
 ## dependencies
 - mocha

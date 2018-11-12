@@ -10,5 +10,5 @@ A repository for practicing and playing around with JavaScript. I will store any
   Contains small setup applications for frameworks or multiple libraries that I use to help build my understanding of the full build stack and initilization processes
 
 
-## sol
+## solutions
   Contains Applications that solve specific problems, asked by interviews or just developed by me to practice problem solving

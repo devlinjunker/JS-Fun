@@ -3,9 +3,10 @@
 Testing ESLint configurations. Thoughts about ESLint or open questions will be left here.
 
 **Todo:**  
-[ ] ESLint HTML Plugin  
-[ ] Mocha  
-[ ] Require Comment Headers https://github.com/Stuk/eslint-plugin-header  
+~~[ ] ESLint HTML Plugin~~  
+[ ] Mocha Environment  
+[ ] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
+[ ] YAML Configuration file  
 
 ## My Style ([file](https://raw.githubusercontent.com/devlinjunker/JS.Fun/master/play/test.eslint/.eslintrc.json)):
 

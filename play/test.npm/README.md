@@ -43,7 +43,9 @@ also beautify js and atom beautify for formatting
 [x] Browserify - Gathers requires/includes and compresses into deliverable
  (replaced by webpack)  
 
-[x] Babel + Flow + EsDoc + EsLint + Prettier
+[ ] HTML Linter  
+
+[x] Babel + Flow + EsDoc + EsLint + Prettier  
 &nbsp;&nbsp;https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
 
 [ ] Above + Webpack + Uglify  
