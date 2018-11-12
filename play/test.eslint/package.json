@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "eslint test package",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@macmini/Users/git/test.eslint.git"
-  },
   "keywords": [
     "eslint",
     "test"
@@ -14,8 +10,8 @@
   "author": "djunker <devlin.junker@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.7.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",

@@ -4,6 +4,7 @@
   * [Docsify JS](play/test.docsify/docs/)
   * [Babel](play/test.babel/)
   * [ESDoc](play/test.esdoc/)
+  * [ESLint](play/test.eslint/)
 * Solutions
   * Quick CLI
   * [Walmart](sol/walmart.md)
