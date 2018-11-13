@@ -6,6 +6,7 @@
   * [ESDoc](play/test.esdoc/)
   * [ESLint](play/test.eslint/)
   * [Mocha](play/test.mocha/)
+  * [React](play/test.react/)
 * Solutions
   * Quick CLI
   * [Walmart](sol/walmart.md)

@@ -63,7 +63,7 @@ Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Wbepack especially)  
 
 ### Documentation
-[c] Styleguidist  
+[ ] Styleguidist  
 [x] EsDoc - integrated with atom?(dockblockr for atom generation)  
 ~~[] Yuidoc?~~(esdoc seems way better)   
 

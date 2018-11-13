@@ -16,3 +16,6 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 ## [Mocha](/play/test.mocha/)
   Test project for the Mocha framework for JavaScript Unit tests.
+
+## [React](/play/test.react/)
+  Testing React UI Components. Based on the react template application with scripts and webpack configs worth exploring.
