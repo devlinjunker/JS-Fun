@@ -9,6 +9,7 @@
   * [React](play/test.react/)
   * [Winston](play/test.winston/)
   * [Flow](play/test.flow/)
+  * [Prettier](play/test.prettier/)
 * Templates
   * [Hapi Server Template](https://devlinjunker.github.io/template.node.hapi/)
 * Solutions

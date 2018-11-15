@@ -38,7 +38,7 @@ Libraries and Project Ideas
 [x] EsLint - Linter (Checking for JS errors) - Need this and Webpack/Babel apparently...  
 [x] Uglify - Minimizer  
 
-[x] Prettier - Code Formatter (Reprints code to match defined style)  
+[..] Prettier - Code Formatter (Reprints code to match defined style)  
 also beautify js and atom beautify for formatting  
 [x] Browserify - Gathers requires/includes and compresses into deliverable
  (replaced by webpack)  
@@ -119,7 +119,7 @@ http://www.material-ui.com/#/get-started/installation
 [ ] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
 [x] EsDoc Badge (See EsDoc)   
 [ ] Gitlab instance  
-[ ] Githooks
+[ ] Githooks (Husky)  
 
 ### Other
 [x] Basic Node Project  

@@ -1,0 +1,19 @@
+{
+  "name": "test.prettier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eval 'if [ ! -e dist ]; then  mkdir dist; fi'; node_modules/prettier/bin/prettier.js index.js > dist/index.pretty.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@localhost/Users/git/test.prettier.git"
+  },
+  "author": "djunker",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  }
+}
