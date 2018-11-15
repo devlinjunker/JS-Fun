@@ -14,9 +14,9 @@ Also EsDoc will display tests, just needed to configure .esdoc.json
 [ ] Read about best practices  
 
 ## dependencies
-- mocha
-- babel-core
-- babel-preset-env
+- mocha 3.5
+- babel-core 6.2
+- babel-preset-env 1.6
 
 ## Usage
 

@@ -6,6 +6,22 @@ Testing a docsify project, setting different configurations and getting ideas fo
 
 > .nojekyll file is useful so git inclues files beginning with `_`  
 
+**ToDo:**  
+[ ] Multi-level dropdown navbar
+
+```
+Example1 Dropdown1 Example2 Dropdown2
+            Menu              Normal
+              Submenu         Dropdown
+              Example3
+            Item
+```
+
+
+## Dependencies
+Docsify 4.3
+
+
 ## Options
 Describing the different configuration options available and explored:
 

@@ -15,6 +15,9 @@ View the badge at docs/badge.svg like so:
 **ToDo:**  
 [ ] To get the manual you have to set the manual option in the .esdoc.json file [???]  
 
+## Dependencies
+ESDoc 1.0
+
 ## Usage
 `npm run doc` to generate static doc in docs folder  
 `open docs/index.html` to browse local file system or host docs folder with server of choice

@@ -8,6 +8,10 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
 [ ] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
 [ ] YAML Configuration file  
 
+## Dependencies
+ESLint 5.9
+
+
 ## My Style ([file](https://raw.githubusercontent.com/devlinjunker/JS.Fun/master/play/test.eslint/.eslintrc.json)):
 
 Use `eslintConfig` option in package.json (this repo doesn't do that for simplicity)  

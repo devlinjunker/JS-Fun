@@ -64,7 +64,8 @@ precompiled JS files (React/Wbepack especially)
 
 ### Documentation
 [ ] Styleguidist  
-[x] EsDoc - integrated with atom?(dockblockr for atom generation)  
+[x] EsDoc - integrated with atom?(dockblockr for atom generation)
+[x] Docsify  
 ~~[] Yuidoc?~~(esdoc seems way better)   
 
 ### Testing
@@ -126,6 +127,7 @@ http://www.material-ui.com/#/get-started/installation
 [ ] Performance Testing  
 [ ] Logging/Kibana  
 [ ] Websocket test
+[ ] Atom Project Manager Package (open files and editor configuration)
 
 ### CSS
 [ ] https://maintainablecss.com/chapters/semantics/  
