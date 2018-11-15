@@ -7,6 +7,7 @@
   * [ESLint](play/test.eslint/)
   * [Mocha](play/test.mocha/)
   * [React](play/test.react/)
+  * [Winston](play/test.winston/)
 * Solutions
   * Quick CLI
   * [Walmart](sol/walmart.md)
