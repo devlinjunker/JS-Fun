@@ -52,6 +52,9 @@ Describing the different configuration options available and explored:
 ### Github Repo Link
   Can add a Github Corner widget to the top right of the page, this can be set to link to the url defined in the `repo` option of the configuration.
 
+### Themes
+  The theme can be changed by setting the style sheet. The four different options are `vue.css`, `buble.css`, `dark.css`, and `pure.css`
+
 ### Last Updated Date
   Can be set in an markdown file with \{ docsify-updated \}, this format can be set with the `formatUpdated` option. This only works if served with docsify server though it seems.
 

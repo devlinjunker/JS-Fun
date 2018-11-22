@@ -82,6 +82,8 @@ precompiled JS files (React/Wbepack especially)
 [ ] Mocha vs Jasmine Comparison Repo
 &nbsp;&nbsp; Practice Global files  
 [ ] Protractor  
+[ ] Karma  
+[ ] Show filepath in test output  
 [ ] Cucumber    
 [ ] Cucumber + E2E (Protractor/Nightwatch)
 
@@ -140,6 +142,7 @@ http://www.material-ui.com/#/get-started/installation
 [ ] Tasker Server/Client App (Goals, Desires, Chores)   
 [ ] Portfolio website (Probably Wordpress)  
 [ ] Javascript Game (Soccer? Bouncing ball moving?)  
+[ ] Source Code Mapper via dependency map  
 [ ] Graphical Node/Web based interface  
 [ ] AI Sandbox/CTF type thing?  
 [ ] Browser Game  
