@@ -66,7 +66,7 @@ precompiled JS files (React/Wbepack especially)
 [ ] Styleguidist  
 [x] EsDoc - integrated with atom?(dockblockr for atom generation)  
 [x] Docsify  
-[ ] Swagger (API Docs)  
+[ ] Swagger (API Docs OpenAPI)  
 ~~[] Yuidoc?~~(esdoc seems way better)   
 
 ### Testing
@@ -85,7 +85,9 @@ precompiled JS files (React/Wbepack especially)
 [ ] Karma  
 [ ] Show filepath in test output  
 [ ] Cucumber    
-[ ] Cucumber + E2E (Protractor/Nightwatch)
+[ ] Cucumber + E2E (Protractor/Nightwatch)  
+[ ] Swagger JS (API Testing based on API Docs)  
+[ ] Newman + Postman (API Testing)
 
 ### Databases
 [x] MongoDB?  
