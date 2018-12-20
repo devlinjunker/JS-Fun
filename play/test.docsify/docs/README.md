@@ -22,6 +22,26 @@ Example1 Dropdown1 Example2 Dropdown2
 Docsify 4.3
 
 
+## Quick Setup
+Once docsify is installed:  
+1. `docsify init ` + dir with README.md     
+2. `npm init` to create package.json if not exists
+3. add scripts for running docs  
+```
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "serve-docs": "docsify serve $npm_package_config_docs_dir",  
+    "docs-bg": "if [ -e docsify.pid ]; then echo 'ERROR: docsify pid file exists, kill process and remove file to start'; else docsify serve $npm_package_config_docs_dir > docsify.log & echo $! > docsify.pid; fi",  
+   "stop-docs": "if [ -e docsify.pid ]; then kill -9 \`less docsify.pid\`; rm docsify.pid; else echo 'pid file not found'; fi" 
+  },
+  "config": {
+    "docs": {
+      "dir": "<dir>"
+    }     
+  }
+```
+4. set config to directory initialized in 
+
 ## Options
 Describing the different configuration options available and explored:
 

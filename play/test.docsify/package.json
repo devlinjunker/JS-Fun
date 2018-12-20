@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "description": "Testing Docsify Library for creating easy documentation",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-docs": "./node_modules/.bin/docsify serve docs",
-    "serve-bg": "./node_modules/.bin/docsify serve docs > docsify.log & echo $! > docsify.pid",
-    "stop": "if [ -e docsify.pid ]; then kill -9 `less docsify.pid`; rm docsify.pid; fi"
-  },
   "author": "devlin.junker@gmail.com",
   "license": "ISC",
   "dependencies": {
     "docsify-cli": "^4.3.0"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-docs": "docsify serve $npm_package_config_docs_dir",  
+    "docs-bg": "if [ -e docsify.pid ]; then echo 'ERROR: docsify pid file exists, kill process and remove file to start'; else docsify serve $npm_package_config_docs_dir > docsify.log & echo $! > docsify.pid; fi",  
+   "stop-docs": "if [ -e docsify.pid ]; then kill -9 `less docsify.pid`; rm docsify.pid; else echo 'pid file not found'; fi"
+  },
+  "config": {
+    "docs": {
+      "dir": "./docs"
+    }
   }
 }
