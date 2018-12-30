@@ -2,16 +2,18 @@
 * [Ideas](play/test.npm/)
 * [Playground](play/)
   * [Docsify JS](play/test.docsify/docs/)
-  * [Babel](play/test.babel/)
   * [ESDoc](play/test.esdoc/)
+  * [Babel](play/test.babel/)
   * [ESLint](play/test.eslint/)
+  * [Flow](play/test.flow/)
+  * [Prettier](play/test.prettier/)
   * [Mocha](play/test.mocha/)
   * [React](play/test.react/)
   * [Winston](play/test.winston/)
-  * [Flow](play/test.flow/)
-  * [Prettier](play/test.prettier/)
+* Practice
+  * [TODO: Webpack Node Project](/practice/webpack.node/)
 * Templates
   * [Hapi Server Template](https://devlinjunker.github.io/template.node.hapi/)
 * Solutions
-  * Quick CLI
   * [Walmart](sol/walmart.md)
+  * TODOC: Quick CLI
