@@ -27,7 +27,12 @@ This is bad composition for a program, don't want to fill up the stack with recu
 
 **Setup:**  
 ``npm install babel-cli babel-preset-env``  
-``echo "{ "presets" : ["env"]}" >> .babelrc``  
+``echo "{ "presets" : [["env", {
+            "targets": {
+                "node": "current" // or '7.10.0'
+            }
+          }]
+        }" >> .babelrc``  
 ``./node_modules/babel-cli/bin/babel.js src/ -d dist``  
 ``node dist/index.js``  
 
