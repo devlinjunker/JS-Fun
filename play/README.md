@@ -28,6 +28,7 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 
 ## Testing
+[Notes](/NOTES/testing.md)
 
 ### [Mocha](/play/test.mocha/)
   Test project for the Mocha framework for JavaScript Unit tests.

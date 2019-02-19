@@ -9,26 +9,36 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 4) edit package.json scripts to edit build process
 
 
-## Idea for Folder Structure
+## Idea for Application Folder Structure
 
 ```
 |-- package.json  
 |-- other config files  
 |-- src/  
-|---- index.js <- calls app.js  
-|---- app.js <- CLI  
-|---- app.spec.js <- tests app.js
-|---- server.js <- runs server with rest intefaces  
-|---- client.js <- client code  
+|---- server/ <- server code with rest intefaces  
+|------ entry.js <- entrypoint to server  
+|------ entry.spec.js <- tests entry.js
+|---- client <- client code  
 |---- common/  
 |-- dist/  (if non web app)  
 |-- public/  (if web app)  
-|-- test <-- for test config
+|-- test/ <-- for test config (maybe helpers)
 |-- e2e
 ```
 
-## Ideas
-Libraries and Project Ideas
+## Idea for Library/Module Folder Structure
+**IN PROGRESS**
+```
+|-- package.json
+|-- other config
+|-- src/
+|---- index.js <- sets up library/module exports
+```
+
+
+## Notes
+[Testing](/NOTES/testing.md)
+
 
 ### Build
 [x] Babel - ECMA6 Compiling - Needed for Flow Static Type Compiling too  
@@ -70,6 +80,7 @@ precompiled JS files (React/Wbepack especially)
 ~~[] Yuidoc?~~(esdoc seems way better)   
 
 ### Testing
+[Notes](NOTES/testing.md)  
 [x] Mocha  (business logic)  
 [x] Chai (Assertion Library)  
 [x] Istanbul (Code Coverage - mix with other testing library)  
