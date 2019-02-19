@@ -13,7 +13,7 @@
 * Practice
   * [TODO: Webpack Node Project](/practice/webpack.node/)
 * Templates
-  * [Hapi Server Template](https://devlinjunker.github.io/template.node.hapi/)
+  * TODO: Simple JS
+  * [Hapi Server](https://devlinjunker.github.io/template.node.hapi/)
 * Solutions
   * [Walmart](sol/walmart.md)
-  * TODOC: Quick CLI
