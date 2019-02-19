@@ -14,6 +14,9 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 ## Build Tools
 
+### [Webpack](/play/test.webpack/)
+  Basic Web Application Project with Webpack (Babel/ES6 + Local Dev Server)
+
 ### [Babel](/play/test.babel/)
  Playing around with babel compilation. Example application and testing ecma6 classes.
 
@@ -41,3 +44,4 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 ### [Winston](/play/test.winston/)
   Logging with Winston Loggers for files or console
+
