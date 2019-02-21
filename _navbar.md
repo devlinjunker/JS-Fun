@@ -1,5 +1,5 @@
 * [Home](/)
-* [Ideas](play/test.npm/)
+* [Ideas](/NOTES.md)
 * [Playground](play/)
   * [Docsify JS](play/test.docsify/docs/)
   * [ESDoc](play/test.esdoc/)
