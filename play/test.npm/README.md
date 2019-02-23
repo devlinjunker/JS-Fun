@@ -1,5 +1,8 @@
-# Node Development Ideas
-Simple node project with npm
+# Node Development 
+How to a basic node project with npm
+
+TODO:  
+[] Create NodeJS Project Template for starting scripts quickly
 
 **Current Process for Creating new Node/NPM project**  
 1) mcd (mkdir;cd;)  
