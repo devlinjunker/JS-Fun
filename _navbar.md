@@ -11,8 +11,6 @@
   * [Mocha](play/test.mocha/)
   * [React](play/test.react/)
   * [Winston](play/test.winston/)
-* Practice
-  * [TODO: Webpack Node Project](/practice/webpack.node/)
 * Templates
   * TODO: Simple JS
   * [Hapi Server](https://devlinjunker.github.io/template.node.hapi/)

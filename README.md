@@ -6,7 +6,7 @@ A repository for practicing and playing around with JavaScript. I will store any
   Contains projects for testing and playing with specific libraries and the functions they provide
 
 
-## practice
+## templates
   Contains small setup applications for frameworks or multiple libraries that I use to help build my understanding of the full build stack and initilization processes
 
 
