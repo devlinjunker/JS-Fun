@@ -28,9 +28,9 @@ Runs flow during webpack compilation and spits out flow syntax error
 [x] Flow  
 [ ] Linting  
 [ ] Automatic Unit Tests  
- &nbsp; &nsbp; [ ] Console output breaks build?  
+ &nbsp; &nbsp; [ ] Console output breaks build?  
 [ ] Automatic Documentation  
- &nbspl &nbspl [ ] Warn on file not documented  
+ &nbsp; &nbsp; [ ] Warn on file not documented  
 [ ] Husky Githooks  
  &nbsp; &nbsp; branch specific? (release branch can increment version number?)  
 [ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch)   
