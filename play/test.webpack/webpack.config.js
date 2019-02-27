@@ -1,6 +1,7 @@
 const path = require("path");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FlowWebpackPlugin = require('flow-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -20,12 +21,13 @@ module.exports = {
     contentBase: "./public"
   },
   plugins:[
-      new CleanWebpackPlugin(["public"]),
-      new HtmlWebpackPlugin({
-        template: "src/index.html",
-        // Set the webpage title
-        title:"Test with Webpack Plugin"
-      })
+    new FlowWebpackPlugin(),
+    new CleanWebpackPlugin(["public"]),
+    new HtmlWebpackPlugin({
+      template: "src/index.html",
+      // Set the webpage title
+      title:"Test with Webpack Plugin"
+    })
   ],
   module: {
     rules: [
@@ -37,7 +39,7 @@ module.exports = {
           loader: 'babel-loader',
           // requires @babel/core and @babel/preset-env from npm
           options: {
-            presets: ['@babel/preset-env']
+            presets: ['@babel/preset-env', '@babel/flow']
           }
         }
       },

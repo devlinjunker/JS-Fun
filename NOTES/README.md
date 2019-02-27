@@ -70,6 +70,6 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 [ ] Websockets  
 [..] Atom Packages  
 [..] Atom Project Manager Package (open files and editor configuration)  
-
-
-
+[ ] Emacs and OrgMode  
+[ ] Worg  
+[ ] Jq  

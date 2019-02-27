@@ -1,10 +1,11 @@
+// @flow
 'use babel'
 import css from './app.css';
 
-function main(){
+function main(test: string){
   const f = () => {
       console.log('hello World 22');
   }
   f();
 }
-main();
+main('t', 1);

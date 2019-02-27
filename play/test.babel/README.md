@@ -6,8 +6,8 @@ as an example testing ECMA6 classes and inheritence.
 Uses Babel to compile source code to output directories in Node/Browser compatible
 
 ToDo:  
-[ ] Review Babel7 https://babeljs.io/docs/en/v7-migration  
-[ ] Babel Config in package.json
+[x] Review Babel7 https://babeljs.io/docs/en/v7-migration  
+[x] Babel Config in package.json
 
 ## Usage
 
