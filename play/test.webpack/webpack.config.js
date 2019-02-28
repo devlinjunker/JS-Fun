@@ -21,13 +21,20 @@ module.exports = {
     contentBase: "./public"
   },
   plugins:[
-    new FlowWebpackPlugin(),
     new CleanWebpackPlugin(["public"]),
+
     new HtmlWebpackPlugin({
       template: "src/index.html",
       // Set the webpage title
       title:"Test with Webpack Plugin"
-    })
+    }),
+
+    // Run Flow on Webpack Compile
+    new FlowWebpackPlugin({
+      failOnError: false,
+      failOnErrorWatch: false,
+      reportingSeverity: 'error'
+    }),
   ],
   module: {
     rules: [

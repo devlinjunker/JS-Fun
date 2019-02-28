@@ -5,8 +5,9 @@ Testing FlowJS Static Type Checker.
 [Flow Documentation](https://flow.org/en/)
 
 **ToDo:**  
-[ ] Update Flow to 0.8  
-[ ] Combine with Babel using flow preset  
+[x] Update Flow to 0.8  
+[x] Combine with Babel using flow preset  
+[ ] Look into flow changelog
 
 ## Dependencies
 
