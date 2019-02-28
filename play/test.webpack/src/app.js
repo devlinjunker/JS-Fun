@@ -8,4 +8,4 @@ function main(test: string){
   }
   f();
 }
-main('t', 1);
+main('t');
