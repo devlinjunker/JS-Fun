@@ -32,6 +32,7 @@ precompiled JS files (React/Webpack especially)
 
 [ ] Validate JS for API Endpoint Contracts  
  &nbsp; &nbsp; Use Shared Models between API and UI  
- &nbsp; &nbsp;  - Constructors can throw the error messages that are used in validation  
- &nbsp; &nbsp;  - FEND can extend the class to add FEND specific properties
- &nsbp; &nbsp; 
+ - Constructors can throw the error messages that are used in validation  
+ - FEND classes extend the validation class
+   - has getModel method, with return type of validation class that can be passed to API methods with validation class typed params  
+   -  Also contains state properties and other FEND specific values  
