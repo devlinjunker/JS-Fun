@@ -52,4 +52,7 @@ Runs flow during webpack compilation and spits out flow syntax error
     - add `failOnErrorWatch` [false] not sure I see this working...
     - set `reportingSeverity` [error]  
       `error` to prevent dev server from reloading the webpage  
-      `warning` to display messages as warnings in console  
+      `warning` to display messages as warnings in console, still reloads webpage and runs failing code
+
+
+### Linting  
