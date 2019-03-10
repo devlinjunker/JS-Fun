@@ -32,7 +32,10 @@ rules:
   header/header:
     - error
     - block
-    - pattern: ^\*\n \* \@flow\n (\*\n \* .*\n )?$
+    - pattern: ^\*\n
+                \* \@flow\n
+               (\*\n
+                \* .*\n )?$
   valid-jsdoc: error
   require-jsdoc:
     - error

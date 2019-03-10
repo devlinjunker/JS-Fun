@@ -2,8 +2,8 @@
 .gitfetch
 .tern-project
 
-app/
-template/
-practice/
+/app/
+/template/
+/practice/
 
 **/node_modules
