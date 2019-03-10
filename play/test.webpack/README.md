@@ -52,10 +52,24 @@ Runs flow during webpack compilation and spits out flow syntax error
     - add `failOnErrorWatch` [false] not sure I see this working...
     - set `reportingSeverity` [error]  
       `error` to prevent dev server from reloading the webpage  
-      `warning` to display messages as warnings in console, still reloads webpage and runs failing code
-
+      `warning` to display messages as warnings in console, still reloads webpage and runs failing code  
+**NOTE:** Need to add any webpack aliases to .flowconfig  
 
 ### Linting  
- - Add .lintrc.* (yaml so we can have comments) with flow extensions   
- - Add ESLint Loader to Webpack
- [x] Comment Headers in all files
+ - Add .eslintrc.* (yaml so we can have comments) with flow extensions   
+ - Add ESLint Loader to Webpack  
+ [x] Require Comment Headers in all files  
+ **ESLint options:**  
+  [ ] fix  
+  [ ] cache - speed up build  
+  [ ] formatter - for formatting output  
+  [ ] eslintPath - for using specific version  
+  [ ] emitError - always errors  
+  [ ] emitWarning - always warnings  
+  [ ] quiet - only errors  
+  [ ] failOnWarning  
+  [ ] failOnError  
+  [ ] outputReport - errors to file  
+
+### Unit Tests
+ Lets use Mocha, seems more flexible
