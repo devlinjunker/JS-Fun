@@ -28,30 +28,11 @@ extends:
 
 # Custom Rules Below
 rules:
+  # Documentation Rules
   header/header:
     - error
     - block
-    -
-      - pattern: ^\*\n \* \@flow\n (\*\n \* .*\n )?$
-
-  max-len:
-    - warn
-    - code: 110
-      ignoreUrls: true
-  max-lines:
-    - warn
-    - max: 500
-      skipComments: true
-  class-methods-use-this: warn
-  require-await: warn
-
-  no-console:
-    - warn
-  no-alert:
-    - error
-  no-empty-function:
-    - warn
-
+    - pattern: ^\*\n \* \@flow\n (\*\n \* .*\n )?$
   valid-jsdoc: error
   require-jsdoc:
     - error
@@ -60,9 +41,43 @@ rules:
         MethodDefinition: true
         ClassDeclaration: true
 
+  # File Conventions
+  max-len:
+    - warn
+    - code: 110
+      ignoreUrls: true
+  max-lines:
+    - warn
+    - max: 500
+      skipComments: true
+  eol-last:
+    - error
+    - always
+  linebreak-style:
+    - error
+    - unix
+
+  # Basic Rules
+  no-var: error
+  prefer-const: error
+  no-shadow: error
+
+  no-duplicate-imports: error
+  class-methods-use-this: warn
+  require-await: warn
+
+  no-console:
+    - warn
+  no-alert:
+    - error
+
+  no-empty-function:
+    - warn
+
   eqeqeq:
     - error
     - always
+
   indent:
     - error
     - 2
@@ -73,19 +88,14 @@ rules:
     - error
     - always
   no-lonely-if: error
+
+  # Spacing
   no-trailing-spaces: error
-  no-shadow: error
-
-  no-duplicate-imports: error
-  eol-last:
-    - error
-    - always
-
+  space-infix-ops: error
+  space-before-blocks: error
   spaced-comment:
     - error
     - always
-
-  space-infix-ops: error
   space-in-parens:
     - error
     - always
@@ -94,17 +104,12 @@ rules:
   space-before-function-paren:
     - error
     - always
-  space-before-blocks: error
-
   keyword-spacing:
     - error
     - before: true
       after: true
 
-  linebreak-style:
-    - error
-    - unix
-
+  # Array/Comma Spacing
   comma-spacing:
     - error
     - after: true
@@ -124,6 +129,7 @@ rules:
       exports: never
       functions: ignore
 
+  # Object Spacing
   key-spacing:
     - error
     - afterColon: true
@@ -134,9 +140,7 @@ rules:
     - error
     - consistent: true
 
-  no-var: error
-  prefer-const: error
-
+  # Arrow Function Conventions
   arrow-body-style:
     - error
     - always

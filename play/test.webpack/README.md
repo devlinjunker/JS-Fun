@@ -10,7 +10,7 @@ Simple web application template for using ES6 with babel, and enabling css and i
 [ ] Automatic Unit Tests  
  &nbsp; &nbsp; [ ] Console output breaks build?  
 [ ] Automatic Documentation  
- &nbsp; &nbsp; [ ] Warn on file not documented  
+ &nbsp; &nbsp; [x] Warn on file not documented  
 [ ] Husky Githooks  
  &nbsp; &nbsp; branch specific? (release branch can increment version number?)  
 [ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch)   
@@ -58,5 +58,4 @@ Runs flow during webpack compilation and spits out flow syntax error
 ### Linting  
  - Add .lintrc.* (yaml so we can have comments) with flow extensions   
  - Add ESLint Loader to Webpack
- [ ] Mocha env Types
- [ ] Comment Headers in all files
+ [x] Comment Headers in all files
