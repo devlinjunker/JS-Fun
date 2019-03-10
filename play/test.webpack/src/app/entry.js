@@ -4,7 +4,6 @@
  * Entrypoint for application, this is where it all starts
  */
 'use babel';
-import '../app.css';
 
 interface AppParams {
   test: string;
@@ -14,16 +13,15 @@ interface AppParams {
   * Runs the entire application so far
   *
   * @param {MainParams} params input to app
-  * @returns {void}
+  * @returns {number} always 22
   */
-function main ( { test } : AppParams ) : void {
+function main ( { test } : AppParams ) : number {
   const f = () => {
     // eslint-disable-next-line
     console.log( 'hello World 22 ' + test );
   };
   f();
+
+  return 22;
 }
-
-main( { test: '2' } );
-
 export default main;

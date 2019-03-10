@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   // Each entry will be loaded into webpage via <script> tags
   entry: {
-      app: "./src/app/entry.js",
+      app: "./src/app/app.js",
       other: "./src/other.js",
   },
   output: {
@@ -51,11 +51,7 @@ module.exports = {
         exclude: /node_modules/,
         use: [{
           // Use Babel to get ES6 syntax
-          loader: 'babel-loader',
-          // requires @babel/core and @babel/preset-env from npm
-          options: {
-            presets: ['@babel/preset-env', '@babel/flow']
-          }
+          loader: 'babel-loader'
         }, {
           loader: "eslint-loader"
         }]

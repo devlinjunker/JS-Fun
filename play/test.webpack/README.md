@@ -59,7 +59,8 @@ Runs flow during webpack compilation and spits out flow syntax error
  - Add .eslintrc.* (yaml so we can have comments) with flow extensions   
  - Add ESLint Loader to Webpack  
  [x] Require Comment Headers in all files  
- **ESLint options:**  
+
+**ESLint options:**  
   [ ] fix  
   [ ] cache - speed up build  
   [ ] formatter - for formatting output  
@@ -72,4 +73,9 @@ Runs flow during webpack compilation and spits out flow syntax error
   [ ] outputReport - errors to file  
 
 ### Unit Tests
- Lets use Mocha, seems more flexible
+ - Lets use Mocha, seems more flexible  
+ - Moved babel config to .babelrc so shared  
+ - **NOTE:** stubbing console.log is dangerous for test result output  
+ - mocha.opts helps running mocha be simpler  
+  [ ] consider moving into `./test/` directory so we don't need to ref  
+[ ] Test bootstrap file  
