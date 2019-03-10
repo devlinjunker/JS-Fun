@@ -1,7 +1,11 @@
-'use babel'
-import clouds from './image.png'
+/**
+ * @flow
+ */
+'use babel';
+import clouds from 'Images/image.png';
 
-const img = document.createElement('img');
+const img = document.createElement( 'img' );
 img.src = clouds;
 
-document.body.appendChild(img);
+if ( document.body )
+  document.body.appendChild( img );

@@ -6,6 +6,8 @@
 
 [lints]
 
-[options]
-
 [strict]
+
+[options]
+module.name_mapper='^App' ->'<PROJECT_ROOT>/src/app'
+module.name_mapper='^Images' ->'<PROJECT_ROOT>/src/img'

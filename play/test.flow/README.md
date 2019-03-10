@@ -22,3 +22,9 @@ Include `// @flow`` comment at the top of each file to be checked.
 or
 
 `./node_modules/.bin/flow`
+
+
+
+### Notes
+
+Duplicate Webpack aliases with [options] in `.flowconfig file`

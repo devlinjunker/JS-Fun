@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.9.0",
+    "eslint-plugin-header": "^3.0.0",
     "eslint-plugin-react": "^7.11.1"
   },
   "scripts": {

@@ -1,3 +1,8 @@
+/*
+ * description
+ */
+let x = [ 1, 2 ];
+
 /**
  * description
  * @return {[type]} [description]
@@ -9,7 +14,7 @@ function test () {
 test();
 
 
-let x = [ 1, 2 ];
+
 x = [1, 2];
 x = [
   1,
@@ -24,4 +29,4 @@ x = [
 ];
 const y = 3;
 
-console.log( x.push( y ) );
+console.log( x.push( y ) ); console.log( x.push( y ) ); console.log( x.push( y ) );

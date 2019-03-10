@@ -5,8 +5,9 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
 **Todo:**  
 ~~[ ] ESLint HTML Plugin~~  
 [ ] Mocha Environment  
-[ ] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
-[ ] YAML Configuration file  
+[x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
+ &nbsp; &nbsp; Check webpack test project
+[x] YAML Configuration file
 
 ## Dependencies
 ESLint 5.9

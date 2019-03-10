@@ -1,0 +1,149 @@
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  sourceType: module
+
+settings:
+  import/resolver:
+    webpack:
+      config: ./webpack.config.js
+
+# TODO: turn browser or node off depending on template
+env:
+  browser: true
+  es6: true
+  node: true
+
+plugins:
+  - prettier
+  - flowtype
+  - header
+
+extends:
+  - eslint:recommended
+  - prettier
+  - prettier/flowtype
+
+
+# Custom Rules Below
+rules:
+  header/header:
+    - error
+    - block
+    -
+      - pattern: ^\*\n \* \@flow\n (\*\n \* .*\n )?$
+
+  max-len:
+    - warn
+    - code: 110
+      ignoreUrls: true
+  max-lines:
+    - warn
+    - max: 500
+      skipComments: true
+  class-methods-use-this: warn
+  require-await: warn
+
+  no-console:
+    - warn
+  no-alert:
+    - error
+  no-empty-function:
+    - warn
+
+  valid-jsdoc: error
+  require-jsdoc:
+    - error
+    - require:
+        FunctionDeclaration: true
+        MethodDefinition: true
+        ClassDeclaration: true
+
+  eqeqeq:
+    - error
+    - always
+  indent:
+    - error
+    - 2
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  no-lonely-if: error
+  no-trailing-spaces: error
+  no-shadow: error
+
+  no-duplicate-imports: error
+  eol-last:
+    - error
+    - always
+
+  spaced-comment:
+    - error
+    - always
+
+  space-infix-ops: error
+  space-in-parens:
+    - error
+    - always
+    - exceptions:
+      - empty
+  space-before-function-paren:
+    - error
+    - always
+  space-before-blocks: error
+
+  keyword-spacing:
+    - error
+    - before: true
+      after: true
+
+  linebreak-style:
+    - error
+    - unix
+
+  comma-spacing:
+    - error
+    - after: true
+  array-bracket-newline:
+    - error
+    - multiline: true
+      minItems: 3
+  array-element-newline:
+    - error
+    - multiline: true
+      minItems: 3
+  comma-dangle:
+    - error
+    - arrays: only-multiline
+      objects: only-multiline
+      imports: never
+      exports: never
+      functions: ignore
+
+  key-spacing:
+    - error
+    - afterColon: true
+  object-curly-spacing:
+    - error
+    - always
+  object-curly-newline:
+    - error
+    - consistent: true
+
+  no-var: error
+  prefer-const: error
+
+  arrow-body-style:
+    - error
+    - always
+  arrow-parens:
+    - error
+    - always
+  arrow-spacing: error
+  prefer-arrow-callback:
+    - error
+    - allowNamedFunctions: true

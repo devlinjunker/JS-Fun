@@ -6,7 +6,7 @@ Simple web application template for using ES6 with babel, and enabling css and i
 **TODO:**  
 [ ] [Loading Fonts?](https://webpack.js.org/guides/asset-management/#loading-fonts)  
 [x] Flow  
-[ ] Linting  
+[x] Linting  
 [ ] Automatic Unit Tests  
  &nbsp; &nbsp; [ ] Console output breaks build?  
 [ ] Automatic Documentation  
@@ -14,7 +14,7 @@ Simple web application template for using ES6 with babel, and enabling css and i
 [ ] Husky Githooks  
  &nbsp; &nbsp; branch specific? (release branch can increment version number?)  
 [ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch)   
-[ ] Look into webpack/flow aliases for project imports  
+[x] Look into webpack/flow aliases for project imports  
 [ ] Clean up output, so only error or recompile is shown  
 [ ] Common vs Production vs Dev Config  
 [ ] Uglify production code  
@@ -56,3 +56,7 @@ Runs flow during webpack compilation and spits out flow syntax error
 
 
 ### Linting  
+ - Add .lintrc.* (yaml so we can have comments) with flow extensions   
+ - Add ESLint Loader to Webpack
+ [ ] Mocha env Types
+ [ ] Comment Headers in all files
