@@ -3,23 +3,26 @@
 [x] Mocha  (business logic)  
 [x] Chai (Assertion Library)  
 [x] Istanbul (Code Coverage - mix with other testing library)  
-&nbsp;&nbsp;Need to look into report formats more  
-[ ] Postman (APIs)  
-[ ] Nightwatch (user experience validation)  
-[ ] Jest  (React components)  
+ - [ ] Need to look into report formats more  
 [x] Winston - Logging  
-&nbsp;&nbsp;https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
+ - https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
 [ ] Mocha vs Jasmine Comparison Repo
-&nbsp;&nbsp; Practice Global files  
-[ ] Protractor  
+- [ ] Practice Global files  
 [ ] Karma  
 [ ] Show filepath in test output  
+
+[ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
+[ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)  
+
 [ ] Cucumber    
 [ ] Cucumber + E2E (Protractor/Nightwatch)  
+
+[ ] Newman + Postman (API Testing)
 [ ] Swagger JS (API Testing based on API Docs)  
-[ ] Newman + Postman (API Testing)  
-[ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
-[ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)
+
+[ ] Protractor  
+[ ] Nightwatch (user experience validation)  
+[ ] Jest  (React components)  
 
 ## __Unit Testing in Javascript__  
 from https://github.com/mawrkus/js-unit-testing-guide
