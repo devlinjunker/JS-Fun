@@ -2,6 +2,7 @@
 
 Simple web application template for using ES6 with babel, and enabling css and image imports for simple project management
 
+Example: https://github.com/Ziv-Barber/react-boilerplate-mocha
 
 **TODO:**  
 [ ] [Loading Fonts?](https://webpack.js.org/guides/asset-management/#loading-fonts)  
@@ -13,11 +14,15 @@ Simple web application template for using ES6 with babel, and enabling css and i
  &nbsp; &nbsp; [x] Warn on file not documented  
 [ ] Husky Githooks  
  &nbsp; &nbsp; branch specific? (release branch can increment version number?)  
-[ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch)   
+[ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch) https://github.com/semantic-release/semantic-release    
 [x] Look into webpack/flow aliases for project imports  
 [ ] Clean up output, so only error or recompile is shown  
+[ ] Node version  
+  [ ] Require for node project/at least warn?  
+  [ ] 10+ includes await/async?  
 [ ] Common vs Production vs Dev Config  
 [ ] Uglify production code  
+
 
 [ ] Script Template  
 [ ] API Template  
@@ -34,7 +39,7 @@ Cleans the public directory on build
 Generates an index.html file in the output directory
 
 ### Babel
-Use Webpack Babel-Loader to find files with .js extension and use babel to process
+Use Webpack Babel-Loader to find files with .js extension and use babel to process and compile es2015+ files
 
 ### Style loader
 Merge and processes all css imported in the project source files  
@@ -45,7 +50,7 @@ Includes any files imported in project source files in the output directory. Mos
 
 
 ### FlowWebpackPlugin
-Runs flow during webpack compilation and spits out flow syntax error  
+Runs flow during webpack compilation and spits out flow syntax errors/ requires flow static typing  
   [ ] Look into node app compile failing on flow error  
   [x] Look into failing compile/build - seems not possible for web app, maybe for node though...   
     - add `failOnError` [false] param to fail webpack default run (need to kill and restart dev-server on error if true)  
@@ -79,3 +84,7 @@ Runs flow during webpack compilation and spits out flow syntax error
  - mocha.opts helps running mocha be simpler  
   [ ] consider moving into `./test/` directory so we don't need to ref  
 [ ] Test bootstrap file  
+
+
+### Clean Output while running
+  This might require creating bash scripts for the npm commands. These will control the terminal output and be able to refresh/clear etc.

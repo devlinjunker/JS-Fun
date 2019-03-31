@@ -1,5 +1,5 @@
 // @flow
-import { describe, it } from 'mocha';
+import { describe, it, beforeEach } from 'mocha';
 import chai from 'chai';
 const expect = chai.expect;
 import sinon from 'sinon';

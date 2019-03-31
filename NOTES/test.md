@@ -17,8 +17,8 @@
 [ ] Cucumber    
 [ ] Cucumber + E2E (Protractor/Nightwatch)  
 [ ] Swagger JS (API Testing based on API Docs)  
-[ ] Newman + Postman (API Testing)
-[ ] Contract Testing  
+[ ] Newman + Postman (API Testing)  
+[ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
 [ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)
 
 ## __Unit Testing in Javascript__  
@@ -47,3 +47,4 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Be aware of the differenc between e2e/integration tests and unit tests
 - Review Test code First (Ideally should be own commits in PR)
 
+## Contract Testing
