@@ -42,6 +42,7 @@ See [package.json]() for full list of current dependencies
   - [ ] Console output breaks prod compilation?  
  - [..] Automatic Documentation  
   - [x] Warn on file not documented  
+ - [ ] Commit Enforcement [Commitizen](http://commitizen.github.io/cz-cli/)
  - [ ] Husky Githooks  
   - branch specific? (release branch can increment version number?)  
  - [ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch) https://github.com/semantic-release/semantic-release    
