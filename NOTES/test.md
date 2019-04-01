@@ -46,6 +46,11 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Be aware of the differenc between e2e/integration tests and unit tests
 - Review Test code First (Ideally should be own commits in PR)
 
+## Sinon (Stubbing, Mocking)
+ Use sandbox in tests, bootstrap can use the global sinon object for global stubs, but we want to be
+ able to stub things for only the tests  
+ https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js
+
 ## Contract Testing
 
-Pact and PactJS for Microservice contract testing, define what you expect endpoint to return and will also help you test that your expectations from endpoint will be met. 
+Pact and PactJS for Microservice contract testing, define what you expect endpoint to return and will also help you test that your expectations from endpoint will be met.
