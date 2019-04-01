@@ -1,28 +1,24 @@
 # Testing
 
-[x] Mocha  (business logic)  
-[x] Chai (Assertion Library)  
-[x] Istanbul (Code Coverage - mix with other testing library)  
- - [ ] Need to look into report formats more  
-[x] Winston - Logging  
- - https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
-[ ] Mocha vs Jasmine Comparison Repo
-- [ ] Practice Global files  
-[ ] Karma  
-[ ] Show filepath in test output  
-
-[ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
-[ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)  
-
-[ ] Cucumber    
-[ ] Cucumber + E2E (Protractor/Nightwatch)  
-
-[ ] Newman + Postman (API Testing)
-[ ] Swagger JS (API Testing based on API Docs)  
-
-[ ] Protractor  
-[ ] Nightwatch (user experience validation)  
-[ ] Jest  (React components)  
+ - [x] Mocha (business logic)
+ - [x] Chai (Assertion Library)  
+ - [x] Istanbul (Code Coverage - mix with other testing library)  
+  - [ ] Need to look into report formats more
+ - [x] Winston - Logging  
+  - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
+ - [ ] Mocha vs Jasmine Comparison Repo
+ - [ ] Practice Global files  
+ - [ ] Karma  
+ - [ ] Show filepath in test output  
+ - [ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
+ - [ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)  
+ - [ ] Cucumber    
+ - [ ] Cucumber + E2E (Protractor/Nightwatch)  
+ - [ ] Newman + Postman (API Testing)
+ - [ ] Swagger JS (API Testing based on API Docs)  
+ - [ ] Protractor  
+ - [ ] Nightwatch (user experience validation)  
+ - [ ] Jest  (React components)  
 
 ## __Unit Testing in Javascript__  
 from https://github.com/mawrkus/js-unit-testing-guide
@@ -51,3 +47,5 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Review Test code First (Ideally should be own commits in PR)
 
 ## Contract Testing
+
+Pact and PactJS for Microservice contract testing, define what you expect endpoint to return and will also help you test that your expectations from endpoint will be met. 

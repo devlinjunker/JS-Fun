@@ -52,24 +52,28 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 ```
 
 ## Project Ideas
-[x] CLI Node Library  
-[ ] Encrypted DB Node Libraries  
-[ ] Tasker Server/Client App (Goals, Desires, Chores)   
-[ ] Portfolio website - Hexo?  
-[ ] Javascript Game (Soccer? Bouncing ball moving?)  
-[ ] Source Code Mapper via dependency map  
-[ ] Graphical Node/Web based interface  
-[ ] AI Sandbox/CTF type thing?  
-[ ] Browser Game  
-[ ] Node Game  
+ - [x] CLI Node Library  
+  - [ ] Node 10 + with loop and proper input
+ - [ ] Source Code Mapper via dependency map  
+ - [ ] Portfolio website - Hexo?  
+ - [ ] SSO Server
+  - [ ] Google Account Integration
+ - [ ] Graphical Node/Web based interface  
+ - [ ] Tasker Server/Client App (Goals, Desires, Chores)   
+ - [ ] Javascript Game (Soccer? Bouncing ball moving?)  
+ - [ ] AI Sandbox/CTF type thing?  
+ - [ ] Browser Game  
+ - [ ] Node Game  
+ - [ ] Encrypted DB Node Libraries  
 
 ## Other
-[x] Basic Node Project  
-[x] Node Library Project (then imported)  
-[ ] Howler Audio Library  
-[ ] Websockets  
-[..] Atom Packages  
-[..] Atom Project Manager Package (open files and editor configuration)  
-[ ] Emacs and OrgMode  
-[ ] Worg  
-[ ] Jq  
+ - [x] Basic Node Project  
+ - [x] Node Library Project (then imported)  
+ - [ ] Howler Audio Library  
+ - [ ] Websockets  
+ - [..] Atom Packages  
+ - [..] Atom Project Manager Package (open files and editor configuration)  
+  - [ ] VS Code
+ - [ ] Emacs and OrgMode  
+ - [ ] Worg  
+ - [ ] Jq  

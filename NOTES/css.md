@@ -1,6 +1,5 @@
 ### CSS
 
-[ ] https://maintainablecss.com/chapters/semantics/  
-[ ] Practice flexbox  
-[ ] Material Design
-
+- [ ] https://maintainablecss.com/chapters/semantics/  
+- [ ] Practice flexbox  
+- [ ] Material Design
