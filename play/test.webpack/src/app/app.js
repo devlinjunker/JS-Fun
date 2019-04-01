@@ -4,4 +4,4 @@
 import main from './entry';
 import '../app.css';
 
-main( { test: '2' } );
+main( { test: '22' } );

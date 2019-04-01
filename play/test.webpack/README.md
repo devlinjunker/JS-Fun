@@ -37,9 +37,10 @@ See [package.json]() for full list of current dependencies
  - [ ] [Loading Fonts?](https://webpack.js.org/guides/asset-management/#loading-fonts)  
  - [x] Flow  
  - [x] Linting  
- - [ ] Automatic Unit Tests  
-  - [ ] Console output breaks build?  
- - [ ] Automatic Documentation  
+ - [x] Automatic Unit Tests  
+  - [x] Only for a specific build script
+  - [ ] Console output breaks prod compilation?  
+ - [..] Automatic Documentation  
   - [x] Warn on file not documented  
  - [ ] Husky Githooks  
   - branch specific? (release branch can increment version number?)  
@@ -51,7 +52,6 @@ See [package.json]() for full list of current dependencies
   - [ ] 10+ includes await/async?  
  - [ ] Common vs Production vs Dev Config  
  - [ ] Uglify production code  
-
 
 
  - [ ] Script Template  
@@ -81,7 +81,7 @@ Includes any files imported in project source files in the output directory. Mos
 
 ### FlowWebpackPlugin
 Runs flow during webpack compilation and spits out flow syntax errors/ requires flow static typing  
-  - [ ] Look into node app compile failing on flow error  
+  - [ ] Look into production compile failing on flow error  
   - [x] Look into failing compile/build - seems not possible for web app, maybe for node though...   
     - add `failOnError` [false] param to fail webpack default run (need to kill and restart dev-server on error if true)  
     - add `failOnErrorWatch` [false] not sure I see this working...
@@ -114,7 +114,7 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
  - mocha.opts helps running mocha be simpler  
   - [ ] consider moving into `./test/` directory so we don't need to ref  
  - [ ] Test bootstrap file  
- - [ ] Automatic Unit Tests during development
+ - [ ] Automatic Unit Tests during development (`npm run test-watch`)
 
 
 ### Clean Output while running

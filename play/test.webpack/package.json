@@ -38,7 +38,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --opts ./mocha.opts",
+    "test": "./node_modules/.bin/mocha --opts ./mocha.opts && flow check",
     "test-watch": "./node_modules/.bin/mocha --opts ./mocha.opts --watch",
     "build": "./node_modules/.bin/webpack",
     "watch": "./node_modules/.bin/webpack --watch",

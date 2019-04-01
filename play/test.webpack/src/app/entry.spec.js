@@ -1,5 +1,5 @@
 // @flow
-import { describe, it, beforeEach } from 'mocha';
+import { describe, it, beforeEach, afterEach } from 'mocha';
 import chai from 'chai';
 const expect = chai.expect;
 import sinon from 'sinon';
@@ -27,6 +27,11 @@ describe('App', () => {
     expect(result).to.equal(22);
 
     // Need to Restore to see Test Ouput
+    stub.restore();
+  })
+
+  afterEach(() => {
+    // In case a test fails, we need to restore this
     stub.restore();
   })
 });
