@@ -1,6 +1,7 @@
 # Performance
 
  - [ ] Performance Testing  
+  - [ ] Directory with scripts for looping on code and output results
  - [ ] Logging/Kibana (ELK)   
  - [ ] jq Command Line JSON Processsor: https://stedolan.github.io/jq/
 

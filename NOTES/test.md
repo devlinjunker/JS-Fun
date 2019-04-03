@@ -35,7 +35,7 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Avoid Logic/Looping in tests, write new test for each specific test case
 - Try to only create expectations based on input  (pre-condition, state, parameters) and output (result, event, view changes)
 - Use `beforeAll` and `beforeEach` to properly re-use setup code for ALL tests
-- Use `fit` and `fdescribe` during test writing and development rather than commenting tests
+- Use `it.only` (`fit`) and `describe.only` (`fdescribe`) during test writing and development rather than commenting tests
 - Test the behavior, not implementation
 - Don't always mock, use the "real" version of the objects if:
     - test setup is still easy
@@ -45,6 +45,14 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Create tests for each bug/defect
 - Be aware of the differenc between e2e/integration tests and unit tests
 - Review Test code First (Ideally should be own commits in PR)
+
+## Mocha
+
+Framework for writing and running test files
+ - `mocha.opts` file for configuration, specify on commandline or in `./test/` directory
+ - has no expectation/assertion library
+ - include chai for asserting test values
+
 
 ## Sinon (Stubbing, Mocking)
  Use sandbox in tests, bootstrap can use the global sinon object for global stubs, but we want to be

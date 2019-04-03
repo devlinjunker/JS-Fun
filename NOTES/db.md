@@ -1,7 +1,7 @@
 # Databases
 
  - [x] MongoDB?  
- - ~~[] MapDB?~~ (Java only)  
+ - [x] ~~MapDB?~~ (Java only)  
  - [x] MySQL?  
  - [x] elasticsearch  
  - [ ] ECMA6 interface/extensions? (task, elastic_task, mongo_task, mysql_task, task_manager, app using task manager and instantiating elastic_task vs  mongo_task)  

@@ -41,7 +41,7 @@
     "test": "./node_modules/.bin/mocha --opts ./mocha.opts && flow check && eslint src/**/*.js",
     "test-watch": "./node_modules/.bin/mocha --opts ./mocha.opts --watch",
     "build": "./node_modules/.bin/webpack",
-    "watch": "./node_modules/.bin/webpack --watch",
+    "dev-watch": "./node_modules/.bin/webpack --watch",
     "dev": "./node_modules/.bin/webpack-dev-server --open"
   },
   "author": "devlin.junker@gmail.com",

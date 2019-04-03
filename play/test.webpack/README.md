@@ -9,7 +9,7 @@ Example: https://github.com/Ziv-Barber/react-boilerplate-mocha
 `npm run dev`  
 To test the application by hosting on a development server to test the current codebase
 
-`npm run watch`  
+`npm run dev-watch`  
 To watch the files for changes during development and hot reloading webpack
 development server
 
@@ -20,8 +20,7 @@ To compile the application with webpack to the `public` directory
 To run all of the unit tests in the codebase once
 
 `npm run test-watch`
-To watch for changes during development and running the unit tests to verify they haven't
-broken
+To watch for changes during development and running the unit tests to verify they haven't broken
 
 
 ## Dependencies
@@ -126,6 +125,8 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
  - [ ] Local Database, key based store/retrieval of values
   - Raw, key value input.
   - Basic non-failing unit tests.
- - [ ] Weather based on stored location
-  - Polished Frontend nice view (with tasks/photos?)
-  - Tests that require backend and async resolution
+  - [ ] Weather based on stored location
+    - Polished Frontend nice view (with tasks/photos?)
+    - Tests that require backend and async resolution
+ - [ ] Server for SSO/Login storage
+ - [ ] Script? Source Code Mapper?
