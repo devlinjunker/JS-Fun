@@ -77,3 +77,5 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
  - [ ] Emacs and OrgMode  
  - [ ] Worg  
  - [ ] Jq  
+ - [ ] iCal? CalDav? Mail Server?
+ - [ ] i18n? translations server?

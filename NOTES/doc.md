@@ -6,3 +6,4 @@
  - [x] Docsify  
  - [ ] Swagger (API Docs OpenAPI)  
  - [x] ~~Yuidoc?~~(esdoc seems way better)   
+ - [ ] Codecov (see cicd too)

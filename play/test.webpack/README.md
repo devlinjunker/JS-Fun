@@ -129,4 +129,4 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
     - Polished Frontend nice view (with tasks/photos?)
     - Tests that require backend and async resolution
  - [ ] Server for SSO/Login storage
- - [ ] Script? Source Code Mapper?
+ - [ ] Script -  Source Code Mapper

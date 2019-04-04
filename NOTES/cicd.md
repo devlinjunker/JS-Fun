@@ -5,3 +5,6 @@
  - [x] EsDoc Badge (See EsDoc)   
  - [ ] Gitlab instance  
  - [ ] Githooks (Husky)  
+ - [ ] loadbalancers?
+ - [ ] nagios?
+ - [ ] (Health check Portal?)

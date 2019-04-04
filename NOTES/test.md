@@ -49,15 +49,16 @@ from https://github.com/mawrkus/js-unit-testing-guide
 ## Mocha
 
 Framework for writing and running test files
- - `mocha.opts` file for configuration, specify on commandline or in `./test/` directory
+ - `mocha.opts` file for [configuration](https://mochajs.org/#command-line-usage), specify on commandline or in `./test/` directory
  - has no expectation/assertion library
  - include chai for asserting test values
+ - [ ] [Reporters](https://mochajs.org/#reporters)
 
 
 ## Sinon (Stubbing, Mocking)
  Use sandbox in tests, bootstrap can use the global sinon object for global stubs, but we want to be
  able to stub things for only the tests  
- https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js
+ - [ ] [Best Practices](https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js)
 
 ## Contract Testing
 
