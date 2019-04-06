@@ -15,5 +15,6 @@
 * Templates
   * TODO: Simple JS
   * [Hapi Server](https://devlinjunker.github.io/template.node.hapi/)
+  * [Basic Webpack](https://github.com/devlinjunker/basic.webpack/)
 * Solutions
   * [Walmart](sol/walmart.md)
