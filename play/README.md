@@ -11,7 +11,8 @@ These are the test projects I create for exploring libraries and build tools. I 
 ### [Mocha](/play/test.mocha/)
   Test project for the Mocha framework for JavaScript Unit tests.
 
-
+### [Karma](/play/test,karma/)
+  Basic Tests with Karma Framework running Mocha tests on Chrome and Firefox for a webpack project
 
 ## Documentation
 [Notes](/NOTES/doc.md)
@@ -52,4 +53,3 @@ These are the test projects I create for exploring libraries and build tools. I 
 
 ### [Winston](/play/test.winston/)
   Logging with Winston Loggers for files or console
-

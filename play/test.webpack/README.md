@@ -112,9 +112,10 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
  - Moved babel config to .babelrc so shared  
  - **NOTE:** stubbing console.log is dangerous for test result output  
  - mocha.opts helps running mocha be simpler  
-  - [ ] consider moving into `./test/` directory so we don't need to ref  
+  - [x] consider moving into `./test/` directory so we don't need to ref  
  - [ ] Test bootstrap file  
- - [ ] Automatic Unit Tests during development (`npm run test-watch`)
+ - [x] Automatic Unit Tests during development (`npm run test-watch`)
+  - Karma runner used for focusing on tests, during development and testing we can just run mocha with `--watch` param
 
 
 ### Clean Output while running

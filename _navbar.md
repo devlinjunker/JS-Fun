@@ -2,6 +2,7 @@
 * [Notes](/NOTES/)
 * [Playground](play/)
   * [Mocha](play/test.mocha/)
+  * [Karma](play/test.karma/)
   * [Docsify JS](play/test.docsify/docs/)
   * [ESDoc](play/test.esdoc/)
   * [Webpack](play/test.webpack/)

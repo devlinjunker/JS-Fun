@@ -46,6 +46,8 @@ from https://github.com/mawrkus/js-unit-testing-guide
 - Be aware of the differenc between e2e/integration tests and unit tests
 - Review Test code First (Ideally should be own commits in PR)
 
+- Best Practices: https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347
+
 ## Mocha
 
 Framework for writing and running test files
@@ -53,12 +55,24 @@ Framework for writing and running test files
  - has no expectation/assertion library
  - include chai for asserting test values
  - [ ] [Reporters](https://mochajs.org/#reporters)
+ - `it()` calls without second argument (function) will be marked as pending (not written yet)
+ - '.skip()' or `.only()` used for isolating tests
+ - `this.slow(ms)` warns on slower tests
+ - `this.retries(num)` enables test retries
 
 
 ## Sinon (Stubbing, Mocking)
  Use sandbox in tests, bootstrap can use the global sinon object for global stubs, but we want to be
  able to stub things for only the tests  
  - [ ] [Best Practices](https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js)
+  - Wrap test functions in `sinon.test()` to ensure we clean up the sinon objects when test is complete
+
+## Karma
+
+Test running framework, for configuring how to run tests which frameworks and specific javascript environments to test.
+ - Use Karma 3 for Node v6
+ - auto watch files and re run tests
+
 
 ## Contract Testing
 

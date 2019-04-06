@@ -7,7 +7,8 @@ js-refactor plugin: ``ctrl+alt+'R'``
 ** Tools: **  
  - [x] Uglify - Minimizer  
  - [x] Prettier - Code Formatter (Reprints code to match defined style)  
-also beautify js and atom beautify for formatting  
+  - also beautify js and atom beautify for formatting  
+  - prettier needed for a lot of `--fix` options in linters
  - [x] Browserify - Gathers requires/includes and compresses into deliverable (replaced by webpack)  
  - [x] Babel - ECMA6 Compiling - Needed for Flow Static Type Compiling too  
  - [x] Flow -  Static Type Checker (Extension of Javascript) - Seem to need Babel (or Webpack?) for this...  
