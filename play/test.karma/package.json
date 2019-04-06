@@ -1,15 +1,14 @@
 {
-  "name": "Karma Test App",
+  "name": "KarmaTestApp",
   "description": "Testing Karma",
   "author": "devlin.junker@gmail.com",
   "license": "ISC",
   "version": "0.0.1",
   "main": " // TODO",
   "scripts": {
-    "test": "flow check && ./node_modules/.bin/mocha && eslint src/**",
-    "test-watch": "node_modules/karma/bin/karma start",
+    "test": "node_modules/karma/bin/karma start --single-run",
     "dev-watch": "./node_modules/.bin/webpack --watch",
-    "watch": "TODO: ... ",
+    "watch": "node_modules/karma/bin/karma start"
   },
   "dependencies": {},
   "devDependencies": {
@@ -20,8 +19,6 @@
     "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
-    "babelify": "^10.0.0",
-    "browserify": "^16.2.3",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "clean-webpack-plugin": "^1.0.1",
@@ -41,19 +38,18 @@
     "html-webpack-plugin": "^3.2.0",
     "ignore-styles": "^5.0.1",
     "karma": "^3.1.4",
-    "karma-babel-preprocessor": "^8.0.0-beta.0",
-    "karma-browserify": "^6.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-eslint": "^2.2.0",
     "karma-firefox-launcher": "^1.1.0",
     "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.5",
     "mocha": "^6.0.2",
     "sinon": "^7.2.7",
     "sinon-chai": "^3.3.0",
     "style-loader": "^0.23.1",
-    "watchify": "^3.11.1",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.2.1"
   }
 }
