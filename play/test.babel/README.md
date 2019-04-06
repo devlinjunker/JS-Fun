@@ -20,7 +20,7 @@ ECMA6 Class Test:
 `npm run app2` to run the example ecma6 class tests  
 
 
-## Development Process
+## Initial Process
 
 Notes:  
 This is bad composition for a program, don't want to fill up the stack with recursive frames  

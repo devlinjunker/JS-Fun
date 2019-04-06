@@ -6,9 +6,9 @@
   - [ ] Need to look into report formats more
  - [x] Winston - Logging  
   - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
- - [ ] Mocha vs Jasmine Comparison Repo
+ - [x] Karma  
  - [ ] Practice Global files  
- - [ ] Karma  
+ - [ ] Mocha vs Jasmine Comparison Repo
  - [ ] Show filepath in test output  
  - [ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
  - [ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)  
@@ -50,28 +50,34 @@ from https://github.com/mawrkus/js-unit-testing-guide
 
 ## Mocha
 
-Framework for writing and running test files
- - `mocha.opts` file for [configuration](https://mochajs.org/#command-line-usage), specify on commandline or in `./test/` directory
- - has no expectation/assertion library
- - include chai for asserting test values
- - [ ] [Reporters](https://mochajs.org/#reporters)
- - `it()` calls without second argument (function) will be marked as pending (not written yet)
- - '.skip()' or `.only()` used for isolating tests
- - `this.slow(ms)` warns on slower tests
- - `this.retries(num)` enables test retries
+Framework for writing and running test files  
+  - `mocha.opts` file for [configuration](https://mochajs.org/#command-line-usage), specify on commandline or in `./test/` directory
+  - has no expectation/assertion library
+  - include chai for asserting test values
+  - [ ] [Reporters](https://mochajs.org/#reporters)
+  - `it()` calls without second argument (function) will be marked as pending (not written yet)
+  - '.skip()' or `.only()` used for isolating tests
+  - `this.slow(ms)` warns on slower tests
+  - `this.retries(num)` enables test retries
+  - when using babel include `--require source-map-support` in mocha.opts for proper stack trace lines
 
 
 ## Sinon (Stubbing, Mocking)
  Use sandbox in tests, bootstrap can use the global sinon object for global stubs, but we want to be
  able to stub things for only the tests  
  - [ ] [Best Practices](https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js)
-  - Wrap test functions in `sinon.test()` to ensure we clean up the sinon objects when test is complete
+  - ~Wrap test functions in `sinon.test()` to ensure we clean up the sinon objects when test is complete~
+  - sinon.test is removed to sinonTest package, but we can create sandbox ourself and clean it up when we're done with each test
+    - [ ] Global test objects
 
 ## Karma
 
 Test running framework, for configuring how to run tests which frameworks and specific javascript environments to test.
  - Use Karma 3 for Node v6
  - auto watch files and re run tests
+ - useful for running test in the right environment
+  - by itself, mocha just runs in Node and doesn't have access to browser globals
+  - Karma can specify to run the Mocha framework in Chrome so these environment globals are available
 
 
 ## Contract Testing

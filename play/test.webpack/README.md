@@ -1,4 +1,4 @@
-# Webpack Browser App
+# Test Webpack Browser App
 
 Simple web application template for using ES6 with babel, and enabling css and image imports for simple project management
 
@@ -24,7 +24,7 @@ To watch for changes during development and running the unit tests to verify the
 
 
 ## Dependencies
-See [package.json]() for full list of current dependencies
+See [package.json](package.json#L18) for full list of current dependencies
  - Webpack + Loaders
  - Babel
  - ESLint
@@ -46,7 +46,8 @@ See [package.json]() for full list of current dependencies
   - branch specific? (release branch can increment version number?)  
  - [ ] Proper Versioning (package.json version at `-SNAPSHOT` in master branch) https://github.com/semantic-release/semantic-release    
  - [x] Look into webpack/flow aliases for project imports  
- - [ ] Clean up output, so only error or recompile is shown  
+ - [..] Clean up output, so only error or recompile is shown  
+  - Karma
  - [ ] Node version  
   - [ ] Require for node project/at least warn?  
   - [ ] 10+ includes await/async?  
@@ -113,9 +114,12 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
  - **NOTE:** stubbing console.log is dangerous for test result output  
  - mocha.opts helps running mocha be simpler  
   - [x] consider moving into `./test/` directory so we don't need to ref  
- - [ ] Test bootstrap file  
+ - [ ] Test bootstrap (global init) file  
  - [x] Automatic Unit Tests during development (`npm run test-watch`)
-  - Karma runner used for focusing on tests, during development and testing we can just run mocha with `--watch` param
+  - Karma runner can be used for focusing on tests
+    - during development and testing we can just run mocha with `--watch` param (see commit [fe98d3f](https://github.com/devlinjunker/basic.webpack/commit/fe98d3f8434fc770b191638ccc323fa7d9f04c83))
+      - is a problem for webapps though because browser env globals are not available unless we use karma
+    - [ ] Integrate Karma and Webpack
 
 
 ### Clean Output while running
@@ -123,7 +127,7 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
 
 
 ### Basic Project
- - [ ] Local Database, key based store/retrieval of values
+ - [..] Local Database, key based store/retrieval of values
   - Raw, key value input.
   - Basic non-failing unit tests.
   - [ ] Weather based on stored location

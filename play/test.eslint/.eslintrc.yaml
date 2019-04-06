@@ -2,6 +2,7 @@ env:
   browser: true
   es6: true
   node: true
+  mocha: true
 
 # settings:
 #   import/resolver:
@@ -97,9 +98,7 @@ rules:
     - always
   space-in-parens:
     - error
-    - always
-    - exceptions:
-      - empty
+    - never
   space-before-function-paren:
     - error
     - always

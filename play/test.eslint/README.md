@@ -3,14 +3,28 @@
 Testing ESLint configurations. Thoughts about ESLint or open questions will be left here.
 
 **Todo:**  
-~~[ ] ESLint HTML Plugin~~  
-[ ] Mocha Environment  
-[x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
- &nbsp; &nbsp; Check webpack test project
-[x] YAML Configuration file
+ - [x] ~~ESLint HTML Plugin~~  
+ - [x] Mocha Environment  
+ - [x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
+  - Check webpack test project  
+ - [x] YAML Configuration file  
+ - [ ] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
 
 ## Dependencies
 ESLint 5.9
+
+## Notes
+Plugins:
+  - prettier
+  - flowtype
+  - header
+    - for requiring file headers
+
+Environments:
+  - browser
+  - es6
+  - node
+  - mocha
 
 
 ## My Style ([file](https://raw.githubusercontent.com/devlinjunker/JS.Fun/master/play/test.eslint/.eslintrc.json)):
@@ -41,7 +55,7 @@ Require spaces after comment operators (`//` or `/*`) (`spaced-comment`)
 
 Require spaces around infix operators (`space-infix-ops`)  
 
-Require space in parens, unless an empty parenthesis set (`space-in-parens`)  
+Never put space in parens (maybe add: unless an single object?) (`space-in-parens`)  
 
 Require space before function parenthesis (`space-before-function-paren`)  
 

@@ -1,6 +1,6 @@
 {
-  "name": "LocalStorageDBApp",
-  "description": "Quick App for testing webpack building",
+  "name": "Karma Test App",
+  "description": "Testing Karma",
   "author": "devlin.junker@gmail.com",
   "license": "ISC",
   "version": "0.0.1",
