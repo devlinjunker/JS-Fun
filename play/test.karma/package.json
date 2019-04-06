@@ -7,8 +7,8 @@
   "main": " // TODO",
   "scripts": {
     "test": "node_modules/karma/bin/karma start --single-run",
-    "dev-watch": "./node_modules/.bin/webpack --watch",
-    "watch": "node_modules/karma/bin/karma start"
+    "dev-watch": "(sleep 5s && open http://localhost:3000) & ./node_modules/.bin/webpack --watch",
+    "watch": "(sleep 5s && open http://localhost:3000) & node_modules/karma/bin/karma start"
   },
   "dependencies": {},
   "devDependencies": {

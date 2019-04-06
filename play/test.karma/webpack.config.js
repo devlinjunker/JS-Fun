@@ -74,7 +74,9 @@ const config = {
     ]
   }
 }
+module.exports = config;
 
+// Start Webpack Dev Server Manually
 const host = '0.0.0.0';
 const port = 3000;
 WebpackDevServer.addDevServerEntrypoints(config, {
@@ -83,13 +85,9 @@ WebpackDevServer.addDevServerEntrypoints(config, {
   host,
   port
 });
-new WebpackDevServer(webpack(config), {
-  contentBase: "./public",
-  hot: true
-}).listen(port, host, function (err, result) {
+const compiler = webpack(config);
+new WebpackDevServer(compiler).listen(port, host, function (err, result) {
   if (err) {
     console.log(err);
   }
 });
-
-module.exports = config;

@@ -25,10 +25,9 @@ Practice with Karma testing framework. Example application with unit tests that 
 
 ### Dev/Tests/Running
 
-`npm run dev-watch` to run the webpack development server and watch for changes on the files to reload
+`npm run watch` to watch all of the files and re-run tests with karma and mocha on change.
+Also run a Webpack Dev Server in the at http://localhost:3000 for running the application during development
 
-`npm run test` to run all of the unit tests for the application
+`npm run test` to only run all of the unit tests for the application once
 
-`npm run test-watch` to run all of the test files with karma and mocha, with watching for changes to re-run the tests on save
-
-`npm run watch` ... TODO: Combine Webpack and Karma
+`npm run dev-watch` to only run the webpack development server and watch for changes on the files to reload

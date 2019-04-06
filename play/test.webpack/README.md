@@ -52,6 +52,7 @@ See [package.json](package.json#L18) for full list of current dependencies
   - [ ] Require for node project/at least warn?  
   - [ ] 10+ includes await/async?  
  - [ ] Common vs Production vs Dev Config  
+  - `WEBPACK_ENV` property (process.env.WEBPACK_ENV)
  - [ ] Uglify production code  
 
 
@@ -119,7 +120,7 @@ Runs flow during webpack compilation and spits out flow syntax errors/ requires 
   - Karma runner can be used for focusing on tests
     - during development and testing we can just run mocha with `--watch` param (see commit [fe98d3f](https://github.com/devlinjunker/basic.webpack/commit/fe98d3f8434fc770b191638ccc323fa7d9f04c83))
       - is a problem for webapps though because browser env globals are not available unless we use karma
-    - [ ] Integrate Karma and Webpack
+    - [x] Integrate Karma and Webpack
 
 
 ### Clean Output while running
