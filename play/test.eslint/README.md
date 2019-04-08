@@ -8,7 +8,7 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
  - [x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
   - Check webpack test project  
  - [x] YAML Configuration file  
- - [ ] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
+ - [..] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
 
 ## Dependencies
 ESLint 5.9

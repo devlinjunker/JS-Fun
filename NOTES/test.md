@@ -7,7 +7,7 @@
  - [x] Winston - Logging  
   - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
  - [x] Karma  
- - [ ] Practice Global files  
+ - [..] Practice Global files  
  - [ ] Mocha vs Jasmine Comparison Repo
  - [ ] Show filepath in test output  
  - [ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
@@ -18,7 +18,7 @@
  - [ ] Swagger JS (API Testing based on API Docs)  
  - [ ] Protractor  
  - [ ] Nightwatch (user experience validation)  
- - [ ] Jest  (React components)  
+ - [ ] Jest  (React components?)  
 
 ## __Unit Testing in Javascript__  
 from https://github.com/mawrkus/js-unit-testing-guide
@@ -68,7 +68,7 @@ Framework for writing and running test files
  - [ ] [Best Practices](https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js)
   - ~Wrap test functions in `sinon.test()` to ensure we clean up the sinon objects when test is complete~
   - sinon.test is removed to sinonTest package, but we can create sandbox ourself and clean it up when we're done with each test
-    - [ ] Global test objects
+    - [..] Global test objects
 
 ## Karma
 

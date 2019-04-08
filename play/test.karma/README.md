@@ -4,7 +4,7 @@ Practice with Karma testing framework. Example application with unit tests that 
 
 **TODO:**
  - [x] Combine Webpack and Karma https://stackoverflow.com/a/50950418
-   - [ ] Alternative Usage of Karma + Webpack (One large bundle vs many bundles 1 per file) https://github.com/webpack-contrib/karma-webpack#alternative-usage
+   - [..] Alternative Usage of Karma + Webpack (One large bundle vs many bundles 1 per file) https://github.com/webpack-contrib/karma-webpack#alternative-usage
  - [ ] Clean output
 
 ### Notes
@@ -21,7 +21,7 @@ Practice with Karma testing framework. Example application with unit tests that 
   - Want to run both in one npm command, instead of using babelify to transpile code, use webpack
   - Karma-sourcemap-loader needed for using sourcemap files from webpack
   - Webpack config actually instantiates the webpack dev server and enables hot module reloading by visiting http://localhost:3000/webpack-dev-server/
-
+  - Had problems with Karma using the rebuilt bundles, solved by using the alternative method linked above
 
 ### Dev/Tests/Running
 

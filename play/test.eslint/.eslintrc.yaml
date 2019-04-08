@@ -25,9 +25,19 @@ plugins:
   - header
 #  - prettier
 #  - flowtype
+#  - plugin:flowtype/recommended
 
 # Custom Rules Below
 rules:
+    # Flow Type Rules
+  # flowtype/require-return-type:
+  #   - warn
+  #   - always
+  #   - excludeMatching:
+  #     - "spec.js"
+  # flowtype/require-parameter-type:
+  #   - warn
+
   # Documentation Rules
   header/header:
     - error

@@ -39,7 +39,7 @@ See [package.json](package.json#L18) for full list of current dependencies
  - [x] Automatic Unit Tests  
   - [x] Only for a specific build script
   - [ ] Console output breaks prod compilation?  
- - [..] Automatic Documentation  
+ - [x] Automatic Documentation  
   - [x] Warn on file not documented  
  - [ ] Commit Enforcement [Commitizen](http://commitizen.github.io/cz-cli/)
  - [ ] Husky Githooks  
