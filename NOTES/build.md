@@ -15,12 +15,36 @@ js-refactor plugin: ``ctrl+alt+'R'``
   - https://flow.org/en/docs/types/   
  - [x] EsLint - Linter (Checking for JS errors) - Need this and Webpack/Babel apparently...  
  - [ ] HTML Linter  
- - [ ] VS Code debug scripts (from Way)
+  - https://github.com/htmlhint/HTMLHint/wiki/Rules
+ - [ ] VS Code/Atom IDE debug scripts for server/spec files (Atom Node-Debugger, VSCode launch.json)
+
+ ```
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Nodemon restart @ app and env.properties",
+    "restart": true,
+    "console": "integratedTerminal",
+    "runtimeExecutable": "nodemon",
+    "args": ["--ext", "js,properties", "--delay", "0.5", "./bootstrap/bootstrap.js", "--run", "api-service", "|", "bunyan", "&", "tsc", "--watch"]
+  },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "mocha test",
+    "runtimeExecutable": "mocha",
+    "restart": true,
+    "console": "integratedTerminal",
+    "internalConsoleOptions": "neverOpen",
+    "args": ["--opts", "${workspaceFolder}/mocha.opts", "--watch", "&", "tsc", "--watch"]
+  }
+  ```
+
 
 Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Webpack especially)  
 
-** Thoughts: **
+** Design Thoughts: **
  - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
  - [ ] Validate JS for API Endpoint Contracts   
    - Use Shared Models between API and UI  
@@ -36,6 +60,7 @@ precompiled JS files (React/Webpack especially)
     - [ ] non js clients?
     - [ ] documentation?
     - [ ] exported
+    - [ ] not just clients? can we do this with backend endpoints
  - [ ] Health Check?
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
@@ -46,7 +71,11 @@ precompiled JS files (React/Webpack especially)
   2. User Stories to Mockups
   3. User Stories + Mockups = Questions + Iteration
   4. Dev Tasks
-   - Tests (Manual, Automation)
+   - Tests
+    - Define:
+    - Manual
+    - Unit
+    - Integration
    - UI
    - Backend Integration
 
@@ -56,4 +85,4 @@ precompiled JS files (React/Webpack especially)
  - [ ] Above + Webpack + Uglify  
  - [x] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
  - [ ] Typescript + TSLint
-   - [ ] Typescript vs Babel?
+   - [ ] Typescript vs Babel repo?

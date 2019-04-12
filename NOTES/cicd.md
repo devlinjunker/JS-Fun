@@ -1,6 +1,6 @@
 # Continuous Integration
 
- - [ ] Travis CI  
+ - [ ] Travis CI / Jenkins  
  - [ ] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
  - [x] EsDoc Badge (See EsDoc)   
  - [ ] Gitlab instance  
@@ -8,3 +8,5 @@
  - [ ] loadbalancers?
  - [ ] nagios?
  - [ ] (Health check Portal?)
+ - [ ] Bugsnag for reporting bugs?
+ - [ ] Cadet for feature suggestions/tracking

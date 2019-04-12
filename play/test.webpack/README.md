@@ -41,6 +41,7 @@ See [package.json](package.json#L18) for full list of current dependencies
   - [ ] Console output breaks prod compilation?  
  - [x] Automatic Documentation  
   - [x] Warn on file not documented  
+ - [ ] HTML Hint Loader https://www.google.com/search?q=htmlhint+webpack&oq=htmlhint+webpack&aqs=chrome..69i57j0l2.2694j0j7&sourceid=chrome&ie=UTF-8
  - [ ] Commit Enforcement [Commitizen](http://commitizen.github.io/cz-cli/)
  - [ ] Husky Githooks  
   - branch specific? (release branch can increment version number?)  
@@ -55,8 +56,7 @@ See [package.json](package.json#L18) for full list of current dependencies
   - `WEBPACK_ENV` property (process.env.WEBPACK_ENV)
  - [ ] Uglify production code  
 
-
- - [ ] Script Template  
+ - [..] Script Template  
  - [ ] API Template  
  - [ ] FEND Template  
  - [ ] Typescript Template   

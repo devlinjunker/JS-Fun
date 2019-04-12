@@ -1,8 +1,9 @@
 # Frameworks
 
- - [..] React  
+ - [ ] React  
   - https://facebook.github.io/react/docs/conditional-rendering.html  
   - https://facebook.github.io/react/tutorial/tutorial.html  
+  - [ ] JSX Linter to replace HTML Linter
  - [ ] Express.js  
  - [ ] Meteor  
   - https://www.meteor.com/tutorials/react/creating-an-app  

@@ -16,6 +16,7 @@
  - [ ] Cucumber + E2E (Protractor/Nightwatch)  
  - [ ] Newman + Postman (API Testing)
  - [ ] Swagger JS (API Testing based on API Docs)  
+ - [ ] Cypress.io
  - [ ] Protractor  
  - [ ] Nightwatch (user experience validation)  
  - [ ] Jest  (React components?)  
