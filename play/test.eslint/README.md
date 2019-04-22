@@ -9,6 +9,12 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
   - Check webpack test project  
  - [x] YAML Configuration file  
  - [..] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
+ - [ ] Module Import Rules: https://www.npmjs.com/package/eslint-plugin-import
+ - Rules to add:
+  - [ ] No destructuring during import. Use separate line
+  - [ ] exports follow conventions
+  - [ ] spaces inside brackets (functions, objects)
+  - [ ] file name rules: https://www.npmjs.com/package/eslint-plugin-filenames
 
 ## Dependencies
 ESLint 5.9

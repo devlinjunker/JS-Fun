@@ -20,6 +20,10 @@ parserOptions:
     jsx: true
   sourceType: module
 
+# NOTE: globals can also be sepecified on a per file basis with /* global <var_name> */
+globals:
+  expect: readonly 
+
 plugins:
   - react
   - header
@@ -40,12 +44,12 @@ rules:
 
   # Documentation Rules
   header/header:
-    - error
+    - warn
     - block
     - pattern: description
   valid-jsdoc: error
   require-jsdoc:
-    - error
+    - warn
     - require:
         FunctionDeclaration: true
         MethodDefinition: true

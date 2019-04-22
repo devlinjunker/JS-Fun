@@ -4,6 +4,7 @@
  - [x] Chai (Assertion Library)  
  - [x] Istanbul (Code Coverage - mix with other testing library)  
   - [ ] Need to look into report formats more
+  - [ ] cobertura (other test coverage)
  - [x] Winston - Logging  
   - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
  - [x] Karma  
@@ -19,7 +20,7 @@
  - [ ] Cypress.io
  - [ ] Protractor  
  - [ ] Nightwatch (user experience validation)  
- - [ ] Jest  (React components?)  
+ - [ ] Jest  (React components -- Don't think jest is just react)  
 
 ## __Unit Testing in Javascript__  
 from https://github.com/mawrkus/js-unit-testing-guide

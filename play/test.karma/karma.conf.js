@@ -1,5 +1,6 @@
 // Karma configuration
 // Generated on Fri Apr 05 2019 21:52:39 GMT-0700 (Pacific Daylight Time)
+/* eslint-disable header/header */
 
 const webpack = require('./webpack.config.js');
 
@@ -16,14 +17,11 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
-    files: [
-      'src/**/*.js'
-    ],
+    files: ['src/**/*.js'],
 
 
     // list of files / patterns to exclude
-    exclude: [
-    ],
+    exclude: [],
 
 
     // preprocess matching files before serving them to the browser
@@ -66,10 +64,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: [
-      'Chrome',
-      'Firefox'
-    ],
+    browsers: ['Chrome', 'Firefox'],
 
 
     // Continuous Integration mode
@@ -79,5 +74,5 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  })
-}
+  });
+};
