@@ -64,7 +64,7 @@ precompiled JS files (React/Webpack especially)
  - [ ] Health Check?
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
-
+ - [ ] Review Design Patterns and Anti-Patterns (https://sourcemaking.com/design_patterns)
 
  Larger App Feature Process:
   1. Features to User Stories
