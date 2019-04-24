@@ -47,8 +47,9 @@ precompiled JS files (React/Webpack especially)
 ** Design Thoughts: **
  - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
  - [ ] Validate JS for API Endpoint Contracts   
-   - Use Shared Models between API and UI  
-   - Should this be separate vs same repo as client and api?
+   - Use Shared Models between API and UI
+    - Models and Contracts defined in API `src/data` directory (UI imports these from API to know what to expect)
+   - Should this be separate vs same repo as client and api? 
    - Constructors can throw the error messages that are used in validation  
    - FEND classes extend the validation/backend class
     - has getModel method, with return type of validation class that can be passed to API methods with validation class typed params  
