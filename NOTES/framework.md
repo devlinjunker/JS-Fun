@@ -13,3 +13,5 @@
  - [ ] Material UI  
   - http://www.material-ui.com/#/get-started/installation   
  - [ ] React Native  
+ - [ ] Svelte 3
+  - https://svelte.dev/tutorial
