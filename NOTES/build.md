@@ -45,11 +45,15 @@ Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Webpack especially)  
 
 ** Design Thoughts: **
- - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
+ - Write test files first!
+  - Even if no exceptions, write comments that explain test strategy
+ - [ ] Write api server endpoints with contract models and mock return data
+  - Where does validation fit? (See below)
+  - If no server yet, set up dataservice classes with the same
  - [ ] Validate JS for API Endpoint Contracts   
    - Use Shared Models between API and UI
     - Models and Contracts defined in API `src/data` directory (UI imports these from API to know what to expect)
-   - Should this be separate vs same repo as client and api? 
+   - Should this be separate vs same repo as client and api?
    - Constructors can throw the error messages that are used in validation  
    - FEND classes extend the validation/backend class
     - has getModel method, with return type of validation class that can be passed to API methods with validation class typed params  
@@ -62,6 +66,7 @@ precompiled JS files (React/Webpack especially)
     - [ ] documentation?
     - [ ] exported
     - [ ] not just clients? can we do this with backend endpoints
+ - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
  - [ ] Health Check?
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
@@ -74,11 +79,29 @@ precompiled JS files (React/Webpack especially)
   4. Dev Tasks
    - Tests
     - Define:
-    - Manual
-    - Unit
-    - Integration
+      - Manual
+      - Unit
+      - Integration
+    - Write
+      - Unit
+        - Setup
+        - Expectations
+   - API
+    - Contract Models with UI (Swagger?)
+    - Mock Data Returned
    - UI
+    - Use API Contract Modles for UI development
    - Backend Integration
+   - Automation testing
+
+
+  **Notes:**
+    - commits explain development history (try to follow above)
+    - comments if nothing else for unit tests
+    - restrict lines/functions/files changed per commit/PR?
+    - Documentation? How to enforce?
+    - Proper branch/merge strategy
+
 
 ** Projects: **  
  - [x] Babel + Flow + EsDoc + EsLint + Prettier  

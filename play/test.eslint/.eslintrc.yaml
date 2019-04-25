@@ -1,3 +1,8 @@
+##
+## My Working Eslint Configuration File
+##  see the README.md for notes and descriptions
+##
+
 env:
   browser: true
   es6: true
@@ -22,7 +27,8 @@ parserOptions:
 
 # NOTE: globals can also be sepecified on a per file basis with /* global <var_name> */
 globals:
-  expect: readonly 
+  # chai
+  expect: readonly
 
 plugins:
   - react
@@ -31,7 +37,7 @@ plugins:
 #  - flowtype
 #  - plugin:flowtype/recommended
 
-# Custom Rules Below
+# Custom Rules Below (can be disabled with /* eslint disable [<rule_name>,<comma_separated>])
 rules:
     # Flow Type Rules
   # flowtype/require-return-type:

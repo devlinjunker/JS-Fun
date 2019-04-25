@@ -3,7 +3,7 @@
 Testing ESLint configurations. Thoughts about ESLint or open questions will be left here.
 
 **Todo:**  
- - [x] ~~ESLint HTML Plugin~~  
+ - [?] ESLint HTML Plugin  ????
  - [x] Mocha Environment  
  - [x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
   - Check webpack test project  
@@ -15,6 +15,13 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
   - [ ] exports follow conventions
   - [ ] spaces inside brackets (functions, objects)
   - [ ] file name rules: https://www.npmjs.com/package/eslint-plugin-filenames
+  - [ ] Naming conventions
+    - mutable_variables_with_underscores
+    - dont_use_underscore_for_trailing_numbers1
+    - CONSTANTS_WITH_CAPS
+    - class_instance.methodsWithCamelCase
+    - ClassNamesWithFirstLetterCapitalized
+    - html-element-names-and-css-classes-with-dashes
 
 ## Dependencies
 ESLint 5.9
@@ -33,7 +40,7 @@ Environments:
   - mocha
 
 
-## My Style ([file](https://raw.githubusercontent.com/devlinjunker/JS.Fun/master/play/test.eslint/.eslintrc.json)):
+## My Style ([file](https://raw.githubusercontent.com/devlinjunker/JS.Fun/master/play/test.eslint/.eslintrc.yaml)):
 
 Use `eslintConfig` option in package.json (this repo doesn't do that for simplicity)  
 
@@ -232,7 +239,7 @@ Prefer Arrow Callbacks except named functions (`prefer-arrow-callback`)
 
 `no-delete-var` disallow deleting variables  
 
-`no-undef` disallow the use of undeclared variables unless mentioned in /*global */ comments  
+`no-undef` disallow the use of undeclared variables unless mentioned in /* global*/ comments  
 
 `no-unused-vars` disallow unused variables  
 
