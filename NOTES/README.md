@@ -54,6 +54,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 ## Project Ideas
  - [x] CLI Node Library  
   - [ ] Node 10 + with loop and proper input
+ - [ ] Github API Project Management Webpage
  - [ ] Source Code Mapper via dependency map  
  - [ ] Portfolio website - Hexo?  
  - [ ] SSO Server
