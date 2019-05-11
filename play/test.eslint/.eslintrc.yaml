@@ -2,12 +2,20 @@
 ## My Working Eslint Configuration File
 ##  see the README.md for notes and descriptions
 ##
+##  INIT: npm install -D eslint eslint-config-prettier eslint-plugin-react
+##  eslint-plugin-header
+##  babel-eslint
+##  eslint-plugin-flowtype
+##  eslint plugin-react
+##
 
 env:
   browser: true
   es6: true
   node: true
   mocha: true
+  # atomtest: true
+  # jasmine: true
 
 # settings:
 #   import/resolver:
@@ -29,6 +37,8 @@ parserOptions:
 globals:
   # chai
   expect: readonly
+  # sinon global if setting up test bootstrap
+  sandbox: readonly # TODO: Identify where
 
 plugins:
   - react
@@ -36,6 +46,18 @@ plugins:
 #  - prettier
 #  - flowtype
 #  - plugin:flowtype/recommended
+
+
+# Rules for only some file locations/paths (globs)
+overrides:
+  - files:
+    - src/*.js
+    excludedFiles: src/*.spec.js
+    rules:
+      header/header:
+        - warn
+        - block
+        - pattern: description
 
 # Custom Rules Below (can be disabled with /* eslint disable [<rule_name>,<comma_separated>])
 rules:
@@ -49,10 +71,10 @@ rules:
   #   - warn
 
   # Documentation Rules
-  header/header:
-    - warn
-    - block
-    - pattern: description
+  # header/header:
+  #   - warn
+  #   - block
+  #   - pattern: description
   valid-jsdoc: error
   require-jsdoc:
     - warn

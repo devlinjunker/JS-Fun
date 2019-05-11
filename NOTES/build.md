@@ -62,10 +62,10 @@ precompiled JS files (React/Webpack especially)
   - shared things: constants, endpoint contract (and validation), models, renderers use on both sides?
   - what about server generated UI? If separate how will it create the same UI?
   - Can we share with other (non fend) clients?
-    - [ ] non js clients?
-    - [ ] documentation?
-    - [ ] exported
-    - [ ] not just clients? can we do this with backend endpoints
+    [ ] non js clients?
+    [ ] documentation?
+    [ ] exported to api
+    [ ] not just clients? can we do this with backend endpoints
  - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
  - [ ] Health Check?
  - [ ] Performance Logging (track with request with unique id)
@@ -109,4 +109,6 @@ precompiled JS files (React/Webpack especially)
  - [ ] Above + Webpack + Uglify  
  - [x] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
  - [ ] Typescript + TSLint
-   - [ ] Typescript vs Babel repo?
+   - [ ] Typescript vs babel/flow repo?
+    - typescript might have better tooling and community?
+    - find references doesn't seem to exist in flow?

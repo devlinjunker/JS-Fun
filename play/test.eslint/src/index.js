@@ -8,7 +8,7 @@ let x = [ 1, 2 ];
  * @return {[type]} [description]
  */
 function test () {
-  console.log( 'test' );
+  console.log('test');
 }
 
 test();
@@ -29,4 +29,4 @@ x = [
 ];
 const y = 3;
 
-console.log( x.push( y ) ); console.log( x.push( y ) ); console.log( x.push( y ) );
+console.log(x.push(y)); console.log(x.push(y)); console.log(x.push(y));

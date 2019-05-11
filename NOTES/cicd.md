@@ -1,5 +1,7 @@
 # Continuous Integration
 
+ - [ ] Github Apps
+ - [ ] Githooks (Husky) ?
  - [ ] Travis CI / Jenkins  
  - [ ] Buck Build System: https://buckbuild.com/
  - [ ] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
@@ -7,7 +9,6 @@
  - [ ] Go/CD?
   - better pipeline staging (allowing for only single stage re-runs)
  - [ ] Gitlab instance  
- - [ ] Githooks (Husky)  
  - [ ] loadbalancers?
  - [ ] nagios?
  - [ ] (Health check Portal?)
