@@ -19,3 +19,5 @@
    - [ ] React Native  
  - [ ] Material UI  (React UI Framework)
    - http://www.material-ui.com/#/get-started/installation   
+ - [ ] Hexo Blog Framework
+ - [ ] Jekyll (Static Blog?)
