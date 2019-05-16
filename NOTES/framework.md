@@ -1,17 +1,21 @@
 # Frameworks
 
+ - ~~[ ] Meteor~~
+   - https://www.meteor.com/tutorials/react/creating-an-app  
+   - https://guide.meteor.com/index.html  
+   - looks dead as of research May 2019
+ - [ ] Bootstrap (UI)
+ - [ ] Foundation (UI Framework?)
+ - [ ] Express.js (Server Framework)
+ - [ ] Ember (for UI instead of react)
+ - [ ] Redux (Single Application State?)
+ - [ ] Angular 2  (UI Instead of React) 
+ - [ ] Svelte 3 (compilation based UI for speed?)
+   - https://svelte.dev/tutorial
  - [ ] React  
-  - https://facebook.github.io/react/docs/conditional-rendering.html  
-  - https://facebook.github.io/react/tutorial/tutorial.html  
-  - [ ] JSX Linter to replace HTML Linter
- - [ ] Express.js  
- - [ ] Meteor  
-  - https://www.meteor.com/tutorials/react/creating-an-app  
-  - https://guide.meteor.com/index.html  
- - [ ] Redux  
- - [ ] Angular 2  
- - [ ] Material UI  
-  - http://www.material-ui.com/#/get-started/installation   
- - [ ] React Native  
- - [ ] Svelte 3
-  - https://svelte.dev/tutorial
+   - https://facebook.github.io/react/docs/conditional-rendering.html  
+   - https://facebook.github.io/react/tutorial/tutorial.html  
+   - [ ] JSX Linter to replace HTML Linter
+   - [ ] React Native  
+ - [ ] Material UI  (React UI Framework)
+   - http://www.material-ui.com/#/get-started/installation   
