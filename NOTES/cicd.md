@@ -14,3 +14,5 @@
  - [ ] (Health check Portal?)
  - [ ] Bugsnag for reporting bugs?
  - [ ] Cadet for feature suggestions/tracking
+ - [ ] Digital Ocean vs AWS?
+ - [ ] Fabric (Python)

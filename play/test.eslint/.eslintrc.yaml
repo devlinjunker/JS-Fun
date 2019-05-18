@@ -69,6 +69,8 @@ rules:
   #     - "spec.js"
   # flowtype/require-parameter-type:
   #   - warn
+  # flowtype/no-weak-types:
+  #   - warn
 
   # Documentation Rules
   # header/header:

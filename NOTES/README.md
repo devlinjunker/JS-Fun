@@ -55,12 +55,14 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
  - [x] CLI Node Library  
   - [ ] Node 10 + with loop and proper input
  - [ ] Github API Project Management Webpage
+ - [ ] NewsBlur (Uprades)
  - [ ] Source Code Mapper via dependency map  
- - [ ] Portfolio website - Hexo?  
+ - [..] Portfolio website - Hexo?  
  - [ ] SSO Server
   - [ ] Google Account Integration
+  - [ ] Hosted NewsBlur Integration?
  - [ ] Graphical Node/Web based interface  
- - [ ] Tasker Server/Client App (Goals, Desires, Chores)   
+ - [ ] Tasker?Productive-me? Server/Client Todo App (Goals, Desires, Chores)  (React Native App?)
  - [ ] Javascript Game (Soccer? Bouncing ball moving?)  
  - [ ] AI Sandbox/CTF type thing?  
  - [ ] Browser Game  

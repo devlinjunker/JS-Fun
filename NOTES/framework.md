@@ -9,7 +9,7 @@
  - [ ] Express.js (Server Framework)
  - [ ] Ember (for UI instead of react)
  - [ ] Redux (Single Application State?)
- - [ ] Angular 2  (UI Instead of React) 
+ - [ ] Angular 2  (UI Instead of React)
  - [ ] Svelte 3 (compilation based UI for speed?)
    - https://svelte.dev/tutorial
  - [ ] React  
@@ -21,3 +21,5 @@
    - http://www.material-ui.com/#/get-started/installation   
  - [ ] Hexo Blog Framework
  - [ ] Jekyll (Static Blog?)
+ - [ ] Backbone (For UI Model-View Binding)
+ - [ ] Fabric? (Python package for bash/ssh configuration)
