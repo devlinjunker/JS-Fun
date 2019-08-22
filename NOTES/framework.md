@@ -4,22 +4,26 @@
    - https://www.meteor.com/tutorials/react/creating-an-app  
    - https://guide.meteor.com/index.html  
    - looks dead as of research May 2019
- - [ ] Bootstrap (UI)
- - [ ] Foundation (UI Framework?)
- - [ ] Express.js (Server Framework)
- - [ ] Ember (for UI instead of react)
+ - [ ] Backbone (For UI Model-View Binding)
  - [ ] Redux (Single Application State?)
- - [ ] Angular 2  (UI Instead of React)
- - [ ] Svelte 3 (compilation based UI for speed?)
-   - https://svelte.dev/tutorial
+   - [ ] on Backend: https://blog.webbylab.com/redux-on-backend/
  - [ ] React  
    - https://facebook.github.io/react/docs/conditional-rendering.html  
    - https://facebook.github.io/react/tutorial/tutorial.html  
    - [ ] JSX Linter to replace HTML Linter
    - [ ] React Native  
+   - [ ] Server Side Rendering (Next.js / Gatsby) https://redux.js.org/recipes/server-rendering   
+ - [ ] Bootstrap (UI)  
+ - [ ] Foundation (UI Framework?)
+ - [ ] Express.js (Server Framework)
+ - [ ] Ember (for UI instead of react)
+ - [ ] Angular 2  (UI Instead of React)
+ - [ ] Svelte 3 (compilation based UI for speed?)
+   - https://svelte.dev/tutorial
  - [ ] Material UI  (React UI Framework)
    - http://www.material-ui.com/#/get-started/installation   
  - [ ] Hexo Blog Framework
  - [ ] Jekyll (Static Blog?)
- - [ ] Backbone (For UI Model-View Binding)
+ - [ ] Kafka (Event Processing)
+   - https://kafka.apache.org/documentation/#gettingStarted  
  - [ ] Fabric? (Python package for bash/ssh configuration)
