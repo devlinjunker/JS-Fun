@@ -6,6 +6,7 @@
    - looks dead as of research May 2019
  - [ ] Backbone (For UI Model-View Binding)
  - [ ] Redux (Single Application State?)
+   - https://redux.js.org/introduction/examples  
    - [ ] on Backend: https://blog.webbylab.com/redux-on-backend/
  - [ ] React  
    - https://facebook.github.io/react/docs/conditional-rendering.html  
