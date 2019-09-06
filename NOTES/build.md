@@ -18,6 +18,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
    - https://github.com/htmlhint/HTMLHint/wiki/Rules
  - [ ] VS Code/Atom IDE debug scripts for server/spec files (Atom Node-Debugger, VSCode launch.json)
 
+
  ```
   {
     "type": "node",
@@ -45,7 +46,7 @@ Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Webpack especially)  
 
 ## Design Thoughts:
- - Write test files first!
+ - [ ] Write test files first!
    - Even if no exceptions, write comments that explain test strategy
  - [ ] Write api server endpoints with contract models and mock return data
    - Where does validation fit? (See below)
@@ -71,6 +72,7 @@ precompiled JS files (React/Webpack especially)
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
  - [ ] Review Design Patterns and Anti-Patterns (https://sourcemaking.com/design_patterns)
+
 
  Larger App Feature Process:
   1. Features to User Stories
