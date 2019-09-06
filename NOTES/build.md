@@ -4,7 +4,7 @@
 Q: Refactoring in atom? (on file basis)  
 js-refactor plugin: ``ctrl+alt+'R'``
 
-** Tools: **  
+## Tools: 
  - [x] Uglify - Minimizer  
  - [x] Prettier - Code Formatter (Reprints code to match defined style)  
   - also beautify js and atom beautify for formatting  
@@ -44,7 +44,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
 Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Webpack especially)  
 
-** Design Thoughts: **
+## Design Thoughts:
  - Write test files first!
   - Even if no exceptions, write comments that explain test strategy
  - [ ] Write api server endpoints with contract models and mock return data
@@ -95,7 +95,7 @@ precompiled JS files (React/Webpack especially)
    - Automation testing
 
 
-  **Notes:**
+  ### Notes:
     - commits explain development history (try to follow above)
     - comments if nothing else for unit tests
     - restrict lines/functions/files changed per commit/PR?
@@ -103,7 +103,7 @@ precompiled JS files (React/Webpack especially)
     - Proper branch/merge strategy
 
 
-** Projects: **  
+## Projects: 
  - [x] Babel + Flow + EsDoc + EsLint + Prettier  
   - https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
  - [ ] Above + Webpack + Uglify  
