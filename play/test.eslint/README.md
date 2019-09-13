@@ -11,6 +11,7 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
  - [..] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
  - [ ] Module Import Rules: https://www.npmjs.com/package/eslint-plugin-import
  - Rules to add:
+  - [ ] Warn on no await: https://eslint.org/docs/rules/require-await  
   - [ ] No destructuring during import. Use separate line
   - [ ] exports follow conventions
   - [ ] spaces inside brackets (functions, objects)
