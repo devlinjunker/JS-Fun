@@ -22,6 +22,9 @@
  - [ ] Nightwatch (user experience validation)  
  - [ ] Jest  (React components -- Don't think jest is just react)  
 
+## Ideas
+ - Cucumber js style (TDD) validation (validate.js style)
+
 ## __Unit Testing in Javascript__  
 from https://github.com/mawrkus/js-unit-testing-guide
 

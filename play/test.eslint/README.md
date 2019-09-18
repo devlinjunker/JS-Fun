@@ -17,11 +17,11 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
   - [ ] spaces inside brackets (functions, objects)
   - [ ] file name rules: https://www.npmjs.com/package/eslint-plugin-filenames
   - [ ] Naming conventions
-    - mutable_variables_with_underscores
+    - variables_with_underscores
     - dont_use_underscore_for_trailing_numbers1
     - CONSTANTS_WITH_CAPS
     - class_instance.methodsWithCamelCase
-    - ClassNamesWithFirstLetterCapitalized
+    - ClassNamesWithFirstLetterCapitalized (CamelCase because conventions?)
     - html-element-names-and-css-classes-with-dashes
 
 ## Dependencies

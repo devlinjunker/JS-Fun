@@ -12,3 +12,5 @@
   - [ ] basalmiq?
   - [ ] spark?
 - [ ] Fiverr or other contracting service for html/css designs?
+- naming conventions
+ - html-element-names-and-css-classes-with-dashes

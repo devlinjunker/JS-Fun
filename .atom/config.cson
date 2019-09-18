@@ -1,2 +1,0 @@
-# "todo-show":
-#  "ignoreThesePaths": ['node_modules', "**/node_modules", "package-lock.json", "test.easel"]

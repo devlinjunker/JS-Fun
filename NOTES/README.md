@@ -22,42 +22,28 @@ Markdown Cheatsheet:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 
+## Up Next TODOs:
+ - [ ] Make Transition to VSCode/Typescript
+  - [ ] Review atom packages for functionality (make notes below with concerns)
+  - [ ] Basic Typescript project (see test.typescript)
+  - [ ] Full Typescript Webpack UI project
+  - [ ] launch.json (see build.md - for server/spec/script files)
+ - [ ] Project Manager Extension???
+  - (seems low priority as I can code without it... but also an easy win and demo...) 
+  - Moving away from atom makes old github repo useless... but good practice I suppose
+ - [ ] Node 10/12
+ - [ ] Basic Server Webpack Template - Probably Typescript
+ - [ ] Example DB Services
 
-### Idea for Application Folder Structure
-
-```
-|-- package.json  
-|-- other config files  
-|-- src/  
-|---- server/ <- server code with rest intefaces  
-|------ entry.js <- entrypoint to server  
-|------ entry.spec.js <- tests entry.js
-|---- client <- client code  
-|---- common/  
-|-- dist/  (if non web app)  
-|-- public/  (if web app)  
-|-- test/ <-- for test config (maybe helpers)
-|-- e2e
-```
-
-
-### Idea for Library/Module Folder Structure
-**IN PROGRESS**
-
-```
-|-- package.json
-|-- other config
-|-- src/
-|---- index.js <- sets up library/module exports
-```
 
 ## Project Ideas
  - [x] CLI Node Library  
   - [ ] Node 10 + with loop and proper input
- - [ ] Github API Project Management Webpage
- - [ ] NewsBlur (Uprades)
- - [ ] Source Code Mapper via dependency map  
  - [..] Portfolio website - Hexo?  
+ - [ ] Github API Project Management Webpage
+ - [ ] Atom Plugin/VSCode Extension for commit size (warn too many changes per file/too many files)
+ - [ ] Source Code Mapper via (typescript/babel) dependency map  
+ - [ ] NewsBlur (Uprades/Django)
  - [ ] SSO Server
   - [ ] Google Account Integration
   - [ ] Hosted NewsBlur Integration?
@@ -72,13 +58,59 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 ## Other
  - [x] Basic Node Project  
  - [x] Node Library Project (then imported)  
- - [ ] Howler Audio Library  
- - [ ] Websockets  
- - [..] Atom Packages  
+ - [x] Atom Packages  
  - [..] Atom Project Manager Package (open files and editor configuration)  
-  - [ ] VS Code
+ - [ ] VS Code
+ - [ ] Websockets  
+ - [ ] Howler Audio Library  
  - [ ] Emacs and OrgMode  
  - [ ] Worg  
  - [ ] Jq  
  - [ ] iCal? CalDav? Mail Server?
  - [ ] i18n? translations server?
+
+
+
+### Ideas for Application Folder Structures
+
+#### Full Application
+```
+|-- package.json  
+|-- other config files  (.eslintrc, .babelrc, webpack.config, karma.config?)
+|-- bin/                <--- contains shell scripts for starting/stopping/installing? (maybe Fabric instead)
+|-- src/  
+|---- api/              <--- contains api code with rest intefaces  
+|------ entry.js        <--- entrypoint to server  
+|------ controller/     <--- contains controllers for server endpoints
+|-------- user.js       <--- controller for user endpoints
+|-------- user.spec.js  <--- tests user.js
+|------ service/        <--- contains services for handling/saving data
+|---- web/              <--- contains webapp code  
+|---- common/  
+|-- out/
+|---- public/           <--- web app output  
+|---- api/              <--- api output
+|-- test/               <--- contains test config (maybe helpers)
+|---- bootstrap.js      <--- starts and configures the test runner for our test files
+|---- e2e/              <--- FEND integration tests?
+```
+
+#### Script (Node v6)
+```
+|-- package.json
+|-- other config files (.eslintrc, .babelrc, .flowconfig)
+|-- src/
+|---- index.js          <--- runs script
+|---- other folders/js  
+|-- out/                <--- output after babel compile
+```
+
+#### Library/Module
+**IN PROGRESS**
+
+```
+|-- package.json
+|-- other config
+|-- src/
+|---- index.js          <--- sets up library/module exports
+```

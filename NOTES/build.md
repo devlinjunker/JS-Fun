@@ -14,6 +14,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
  - [x] Flow -  Static Type Checker (Extension of Javascript) - Seem to need Babel (or Webpack?) for this...  
    - https://flow.org/en/docs/types/   
  - [x] EsLint - Linter (Checking for JS errors) - Need this and Webpack/Babel apparently...  
+ - [ ] Typescript
  - [ ] HTML Linter  
    - https://github.com/htmlhint/HTMLHint/wiki/Rules
  - [ ] VS Code/Atom IDE debug scripts for server/spec files (Atom Node-Debugger, VSCode launch.json)
@@ -45,9 +46,10 @@ js-refactor plugin: ``ctrl+alt+'R'``
 Note: SASS/LESS/CSS Preprocessors seem to be out in favor of importing CSS into
 precompiled JS files (React/Webpack especially)  
 
+
 ## Design Thoughts:
  - [ ] Write test files first!
-   - Even if no exceptions, write comments that explain test strategy
+   - Even if no except statements, write comments that explain test strategy
  - [ ] Write api server endpoints with contract models and mock return data
    - Where does validation fit? (See below)
    - If no server yet, set up dataservice classes with the same
@@ -104,6 +106,16 @@ precompiled JS files (React/Webpack especially)
     - Documentation? How to enforce?
     - Proper branch/merge strategy
 
+  **Naming conventions**
+  Want to enforce with linting (see eslint project)
+    - variables_with_underscores
+    - dont_use_underscore_for_trailing_numbers1
+    - CONSTANTS_WITH_CAPS
+    - class_instance.methodsWithCamelCase
+    - ClassNamesWithFirstLetterCapitalized (CamelCase because conventions?)
+    - html-element-names-and-css-classes-with-dashes
+
+  German Naming Conventions (use fully qualified names without abbreviations) https://chrisdone.com/posts/german-naming-convention/
 
 ## Projects: 
  - [x] Babel + Flow + EsDoc + EsLint + Prettier  
@@ -113,4 +125,4 @@ precompiled JS files (React/Webpack especially)
  - [ ] Typescript + TSLint
    - [ ] Typescript vs babel/flow repo?
     - typescript might have better tooling and community?
-    - find references doesn't seem to exist in flow?
+    - `find all references` doesn't seem to exist in flow?
