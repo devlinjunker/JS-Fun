@@ -16,3 +16,4 @@
  - [ ] Cadet for feature suggestions/tracking
  - [ ] Digital Ocean vs AWS?
  - [ ] Fabric (Python)
+ - [ ] auto (automatic release by PR) https://github.com/intuit/auto 
