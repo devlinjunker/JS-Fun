@@ -77,6 +77,9 @@ precompiled JS files (React/Webpack especially)
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
  - [ ] Review Design Patterns and Anti-Patterns (https://sourcemaking.com/design_patterns)
+ - [ ] convention enforcer?
+    - external services have healthcheck
+    - endpoints have openAPI
 
 
  Larger App Feature Process:
