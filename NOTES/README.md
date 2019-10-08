@@ -23,17 +23,19 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 
 ## Up Next TODOs:
- - [ ] Make Transition to VSCode/Typescript
-  - [ ] Review atom packages for functionality (make notes below with concerns)
-  - [ ] Basic Typescript project (see test.typescript)
-  - [ ] Full Typescript Webpack UI project
-  - [ ] launch.json (see build.md - for server/spec/script files)
+ - ~~[ ] Make Transition to VSCode/Typescript~~
+  - ~~[ ] Review atom packages for functionality (make notes below with concerns)~~
+  - ~~[ ] Basic Typescript project (see test.typescript)~~
+  - ~~[ ] Full Typescript Webpack UI project~~
+  - ~~[ ] launch.json (see build.md - for server/spec/script files)~~
+ - [x] Basic Server Webpack Template
+ - [ ] Example DB Services
+ - [ ] Githooks
+ - [ ] Auto JS Versioning
  - [ ] Project Manager Extension???
   - (seems low priority as I can code without it... but also an easy win and demo...) 
   - Moving away from atom makes old github repo useless... but good practice I suppose
  - [ ] Node 10/12
- - [ ] Basic Server Webpack Template - Probably Typescript
- - [ ] Example DB Services
 
 
 ## Project Ideas
