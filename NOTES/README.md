@@ -40,21 +40,22 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 ## Project Ideas
  - [x] CLI Node Library  
-  - [ ] Node 10 + with loop and proper input
- - [..] Portfolio website - Hexo?  
+   - [ ] Node 10 + with loop and proper input
+ - [x] Portfolio website 
+   - [ ] Hexo?  
  - [ ] Github API Project Management Webpage
  - [ ] Atom Plugin/VSCode Extension for commit size (warn too many changes per file/too many files)
- - [ ] Source Code Mapper via (typescript/babel) dependency map  
- - [ ] NewsBlur (Uprades/Django)
+ - ~~[ ] Source Code Mapper via (typescript/babel) dependency map~~ see madge in [build notes](/NOTES/build.md)  
  - [ ] SSO Server
-  - [ ] Google Account Integration
-  - [ ] Hosted NewsBlur Integration?
- - [ ] Graphical Node/Web based interface  
+   - [ ] Google Account Integration
+   - [ ] Hosted NewsBlur Integration?
+ - [ ] Javascript Game (Soccer? Bouncing ball moving?)   
+   - [ ] Browser Game  
+   - [ ] Node Game  
+ - [ ] NewsBlur (Uprades/Django)
+ - [ ] Graphical Node/Web based interface(??)  
  - [ ] Tasker?Productive-me? Server/Client Todo App (Goals, Desires, Chores)  (React Native App?)
- - [ ] Javascript Game (Soccer? Bouncing ball moving?)  
  - [ ] AI Sandbox/CTF type thing?  
- - [ ] Browser Game  
- - [ ] Node Game  
  - [ ] Encrypted DB Node Libraries  
 
 ## Other
