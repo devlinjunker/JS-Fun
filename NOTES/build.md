@@ -6,6 +6,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
 
 ## Tools: 
  - [x] Uglify - Minimizer  
+   - [ ] For production bundle
  - [x] Prettier - Code Formatter (Reprints code to match defined style)  
    - also beautify js and atom beautify for formatting  
    - prettier needed for a lot of `--fix` options in linters
@@ -14,15 +15,14 @@ js-refactor plugin: ``ctrl+alt+'R'``
  - [x] Flow -  Static Type Checker (Extension of Javascript) - Seem to need Babel (or Webpack?) for this...  
    - https://flow.org/en/docs/types/   
  - [x] EsLint - Linter (Checking for JS errors) - Need this and Webpack/Babel apparently...  
- - [ ] Typescript
+ - [ ] Madge (https://github.com/pahen/madge) javascript dependency graphing
  - [ ] HTML Linter  
    - https://github.com/htmlhint/HTMLHint/wiki/Rules
  - [ ] css linting
    - stylelint
    - cssnano
+ - [ ] Typescript
  - [ ] VS Code/Atom IDE debug scripts for server/spec files (Atom Node-Debugger, VSCode launch.json)
-
-
  ```
   {
     "type": "node",
@@ -106,27 +106,28 @@ precompiled JS files (React/Webpack especially)
 
 
   ### Notes:
-    - commits explain development history (try to follow above)
-    - comments if nothing else for unit tests
-    - restrict lines/functions/files changed per commit/PR?
-    - Documentation? How to enforce?
-    - Proper branch/merge strategy
+   - commits explain development history (try to follow above)
+   - comments if nothing else for unit tests
+   - restrict lines/functions/files changed per commit/PR?
+   - Documentation? How to enforce?
+   - Proper branch/merge strategy
 
   **Naming conventions**
   Want to enforce with linting (see eslint project)
-    - variables_with_underscores
-    - dont_use_underscore_for_trailing_numbers1
-    - CONSTANTS_WITH_CAPS
-    - class_instance.methodsWithCamelCase
-    - ClassNamesWithFirstLetterCapitalized (CamelCase because conventions?)
-    - html-element-names-and-css-classes-with-dashes
+    
+   - variables_with_underscores
+   - dont_use_underscore_for_trailing_numbers1
+   - CONSTANTS_WITH_CAPS
+   - class_instance.methodsWithCamelCase
+   - ClassNamesWithFirstLetterCapitalized (CamelCase because conventions?)
+   - html-element-names-and-css-classes-with-dashes
 
   German Naming Conventions (use fully qualified names without abbreviations) https://chrisdone.com/posts/german-naming-convention/
 
 ## Projects: 
  - [x] Babel + Flow + EsDoc + EsLint + Prettier  
   - https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
- - [ ] Above + Webpack + Uglify  
+ - [x] Above + Webpack
  - [x] Webpack -  Front-End packager for bundling required libraries and other files, also can manage babel/minifying/  
  - [ ] Typescript + TSLint
    - [ ] Typescript vs babel/flow repo?
