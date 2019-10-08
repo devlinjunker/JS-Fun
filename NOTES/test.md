@@ -3,20 +3,20 @@
  - [x] Mocha (business logic)
  - [x] Chai (Assertion Library)  
  - [x] Istanbul (Code Coverage - mix with other testing library)  
-  - [ ] Need to look into report formats more
-  - [ ] cobertura (other test coverage)
+   - [ ] Need to look into report formats more
+   - [ ] cobertura (other test coverage)
  - [x] Winston - Logging  
-  - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
+   - [x] https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/  
  - [x] Karma  
- - [..] Practice Global files  
- - [ ] Mocha vs Jasmine Comparison Repo
+ - [x] Practice Global files  
  - [ ] Show filepath in test output  
  - [ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
+ - [ ] Swagger JS (API Testing based on API Docs)  
+ - [ ] Newman + Postman (API Testing)
+ - [ ] Mocha vs Jasmine Comparison Repo
  - [ ] Look into Factories for setup code [*](https://github.com/mawrkus/js-unit-testing-guide#consider-using-factory-functions-in-the-tests)  
  - [ ] Cucumber    
  - [ ] Cucumber + E2E (Protractor/Nightwatch)  
- - [ ] Newman + Postman (API Testing)
- - [ ] Swagger JS (API Testing based on API Docs)  
  - [ ] Cypress.io
  - [ ] Protractor  
  - [ ] Nightwatch (user experience validation)  
