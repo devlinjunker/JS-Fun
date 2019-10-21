@@ -4,7 +4,7 @@
 Q: Refactoring in atom? (on file basis)  
 js-refactor plugin: ``ctrl+alt+'R'``
 
-## Tools: 
+## Tools:
  - [x] Uglify - Minimizer  
    - [ ] For production bundle
  - [x] Prettier - Code Formatter (Reprints code to match defined style)  
@@ -114,7 +114,7 @@ precompiled JS files (React/Webpack especially)
 
   **Naming conventions**
   Want to enforce with linting (see eslint project)
-    
+
    - variables_with_underscores
    - dont_use_underscore_for_trailing_numbers1
    - CONSTANTS_WITH_CAPS
@@ -124,7 +124,7 @@ precompiled JS files (React/Webpack especially)
 
   German Naming Conventions (use fully qualified names without abbreviations) https://chrisdone.com/posts/german-naming-convention/
 
-## Projects: 
+## Projects:
  - [x] Babel + Flow + EsDoc + EsLint + Prettier  
   - https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213  
  - [x] Above + Webpack

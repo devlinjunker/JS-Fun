@@ -5,6 +5,7 @@
   * [Karma](play/test.karma/)
   * [Docsify JS](play/test.docsify/docs/)
   * [ESDoc](play/test.esdoc/)
+  * [Swagger](play/test.swagger/)
   * [Webpack](play/test.webpack/)
   * [Babel](play/test.babel/)
   * [Flow](play/test.flow/)

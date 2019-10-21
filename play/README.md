@@ -23,6 +23,8 @@ These are the test projects I create for exploring libraries and build tools. I 
 ### [ESDoc](/play/test.esdoc/)
   Using ESDoc to generate static pages for JavaScript project code and test documentation. This is an example of those pages and a few usage examples.
 
+### [Swagger](/play/test.swagger)
+  Using OpenAPI schemas and libraries to set up Swagger site for hitting API endpoint
 
 
 ## Build Tools

@@ -4,7 +4,16 @@
     "plugins":[{
       "name":"esdoc-standard-plugin",
       "option":{
-        "brand":{"title":"Test"}
+        "brand":{"title":"Test"},
+        "manuals": {
+          "index": "manual2.md",
+          "files": [
+            "manual.md",
+            "manual2.md"
+          ]
+        }
       }
+    }, {
+      "name": "esdoc-swagger-plugin"
     }]
 }

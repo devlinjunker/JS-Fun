@@ -13,7 +13,7 @@ View the badge at docs/badge.svg like so:
 
 
 **ToDo:**  
-[ ] To get the manual you have to set the manual option in the .esdoc.json file [???]  
+- [..] To get the manual you have to set the manual option in the .esdoc.json file
 
 ## Dependencies
 ESDoc 1.0
