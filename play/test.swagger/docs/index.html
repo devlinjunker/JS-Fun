@@ -3,33 +3,26 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl">
-  <title data-ice="title">Home | Test</title>
+  <title data-ice="title">Home | Swagger</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="testing swagger u i"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Test"><meta property="twitter:description" content="testing swagger u i"></head>
+<meta name="description" content="testing swagger u i"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Swagger"><meta property="twitter:description" content="testing swagger u i"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
   <a href="./">Home</a>
-
+  
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
-  <a href="swagger">API</a>
-
-  <div class="search-box">
-  <span>
-    <img src="./image/search.png">
-    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
-  </span>
-    <ul class="search-result"></ul>
-  </div>
+  
+  <a href="swagger/index.html">API</a>
 </header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
-
+    
   <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/classes.js~BaseClass.html">BaseClass</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/classes.js~ExtendedClass.html">ExtendedClass</a></span></span></li>
 </ul>
@@ -37,14 +30,39 @@
 </nav>
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="exploring-swagger-documentation">Exploring Swagger documentation</h1><p>Exploring Swagger UI with OpenAPI example.</p>
+<p>Swagger UI files are in <code>docs/swagger/</code></p>
 <h2 id="dependencies-">Dependencies:</h2><ul>
 <li>Node v8</li>
 <li>Babel v7</li>
 <li>Webpack v4</li>
 </ul>
 <h2 id="development">Development</h2><p>Start the webpack dev server and open localhost:8080 to swagger-ui with <code>npm run dev-server</code></p>
-<h2 id="todo">TODO</h2><ul>
-<li>[] Combine with esdoc</li>
+<p>Update esdoc documentation with <code>npm run doc</code></p>
+<ul>
+<li>If you do this, you will need to update the esdoc html page&apos;s so the header contains a link to the Swagger UI:
+<code>&lt;a href=&quot;swagger&quot;&gt;API&lt;/a&gt;</code></li>
+<li>Make sure you update this in <code>docs/class/src</code> html files alsos</li>
+</ul>
+<h2 id="notes">Notes</h2><ul>
+<li>SWAY Connect API for Parsing OpenAPI <a href="https://github.com/apigee-127/sway/blob/master/docs/README.md">https://github.com/apigee-127/sway/blob/master/docs/README.md</a></li>
+<li><p>OpenAPI/Swagger example and docs: <a href="https://swagger.io/docs/specification/basic-structure/">https://swagger.io/docs/specification/basic-structure/</a></p>
+</li>
+<li><p>Build HTML Plugin: <a href="https://github.com/esdoc/esdoc-plugins/blob/master/esdoc-publish-html-plugin/src/Plugin.js">https://github.com/esdoc/esdoc-plugins/blob/master/esdoc-publish-html-plugin/src/Plugin.js</a></p>
+</li>
+</ul>
+<p><strong>TODO:</strong></p>
+<ul>
+<li>[..] Combine with esdoc<ul>
+<li>[x] <del>Plugin to build</del><ul>
+<li>Config to locate openapi file then import to <code>docs/swagger</code></li>
+</ul>
+</li>
+<li>[ ] Template with API page and header link to API<ul>
+<li><a href="https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-publish-html-plugin/src/Builder/template">https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-publish-html-plugin/src/Builder/template</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>

@@ -4,7 +4,12 @@
     "plugins":[{
       "name":"esdoc-standard-plugin",
       "option":{
-        "brand":{"title":"Test"}
+        "brand":{"title":"Swagger"}
+      }
+    }, {
+      "name": "esdoc-publish-html-plugin",
+      "option": {
+        "template": "swagger-template"
       }
     }]
 }

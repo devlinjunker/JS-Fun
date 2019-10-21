@@ -2,6 +2,8 @@
 
 Exploring Swagger UI with OpenAPI example.
 
+Swagger UI files are in `docs/swagger/`
+
 ## Dependencies:
   - Node v8
   - Babel v7
@@ -18,9 +20,16 @@ Update esdoc documentation with `npm run doc`
   - Make sure you update this in `docs/class/src` html files alsos
 
 
+## Notes
 
-## TODO
+- SWAY Connect API for Parsing OpenAPI https://github.com/apigee-127/sway/blob/master/docs/README.md
+- OpenAPI/Swagger example and docs: https://swagger.io/docs/specification/basic-structure/
+
+- Build HTML Plugin: https://github.com/esdoc/esdoc-plugins/blob/master/esdoc-publish-html-plugin/src/Plugin.js
+
+**TODO:**
   - [..] Combine with esdoc
-    - [ ] Plugin to build API page and add to header
+    - [x] ~~Plugin to build~~
       - Config to locate openapi file then import to `docs/swagger`
-    
+    - [ ] Template with API page and header link to API
+      - https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-publish-html-plugin/src/Builder/template
