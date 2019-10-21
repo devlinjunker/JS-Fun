@@ -3,17 +3,17 @@ const path = require("path");
 module.exports = {
   mode: 'development',
   entry: {
-      index: "./swagger/src/index.js",
+      swagger: "./docs/swagger/src/index.js",
   },
   output: {
     filename: "[name].bundle.js",
     // Need to do this because path must be absolute
-    path: path.resolve(__dirname, "swagger/")
+    path: path.resolve(__dirname, "docs/swagger/")
   },
   // Turn off for production (see https://webpack.js.org/guides/production)
   devtool: "inline-source-map",
   devServer: {
-    contentBase: "./swagger"
+    contentBase: "./docs"
   },
   resolve: {
     extensions: ['.js'],

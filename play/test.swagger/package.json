@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-server": "webpack-dev-server --open",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "doc": "esdoc"
   },
   "keywords": [
     "swagger",
