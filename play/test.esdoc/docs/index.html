@@ -37,12 +37,20 @@
 
 <div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="esdoc-test-application">esdoc test application</h1><p>This is an example using ESDoc to generate static javadoc style documentation pages for a javascript project.  </p>
 <p>View the generated docsite <a href="/play/test.esdoc/docs/index.html">here</a></p>
-<p><strong>Notes:</strong><br>View the badge at docs/badge.svg like so:   </p>
-<p><img src="./badge.svg" alt> (on docsite)</p>
-<p><img src="./docs/badge.svg" alt> (on README.md)</p>
+<p><strong>Notes:</strong>  </p>
+<ul>
+<li><p>View the badge at docs/badge.svg like so:<br><img src="./badge.svg" alt> (on docsite)  </p>
+<p><img src="./docs/badge.svg" alt> (on README.md)  </p>
+</li>
+<li>Everything is done by Plugins: <a href="https://github.com/esdoc/esdoc/blob/master/src/ESDoc.js#L111">https://github.com/esdoc/esdoc/blob/master/src/ESDoc.js#L111</a></li>
+</ul>
 <p><strong>ToDo:</strong>  </p>
 <ul>
-<li>[..] To get the manual you have to set the manual option in the .esdoc.json file</li>
+<li>[x] To get the manual you have to set the manual option in the .esdoc.json file<ul>
+<li>not sure what adding multiple files does..</li>
+</ul>
+</li>
+<li>[ ] different template with HTML Build</li>
 </ul>
 <h2 id="dependencies">Dependencies</h2><p>ESDoc 1.0</p>
 <h2 id="usage">Usage</h2><p><code>npm run doc</code> to generate static doc in docs folder<br><code>open docs/index.html</code> to browse local file system or host docs folder with server of choice</p>

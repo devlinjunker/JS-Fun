@@ -10,6 +10,7 @@
  - [x] Karma  
  - [x] Practice Global files  
  - [ ] Show filepath in test output  
+ - [ ] Only run tests on chaged files: https://stackoverflow.com/questions/43140501/can-webpack-report-which-file-triggered-a-compilation-in-watch-mode
  - [ ] Contract Testing https://github.com/DiUS/pact-workshop-js  
  - [ ] Swagger JS (API Testing based on API Docs)  
  - [ ] Newman + Postman (API Testing)
@@ -22,7 +23,7 @@
  - [ ] Nightwatch (user experience validation)  
  - [ ] Jest  (React components -- Don't think jest is just react)  
  - [ ] Testing Best Practices/Ideas: https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347
- 
+
 ## Ideas
  - Cucumber js style (TDD) validation (validate.js style)
 

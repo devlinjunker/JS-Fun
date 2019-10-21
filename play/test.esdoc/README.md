@@ -5,15 +5,17 @@ This is an example using ESDoc to generate static javadoc style documentation pa
 View the generated docsite [here](/play/test.esdoc/docs/index.html)
 
 **Notes:**  
-View the badge at docs/badge.svg like so:   
+  - View the badge at docs/badge.svg like so:   
+    ![](./badge.svg) (on docsite)  
 
-![](./badge.svg) (on docsite)
-
-![](./docs/badge.svg) (on README.md)
+    ![](./docs/badge.svg) (on README.md)  
+  - Everything is done by Plugins: https://github.com/esdoc/esdoc/blob/master/src/ESDoc.js#L111
 
 
 **ToDo:**  
-- [..] To get the manual you have to set the manual option in the .esdoc.json file
+  - [x] To get the manual you have to set the manual option in the .esdoc.json file
+    - not sure what adding multiple files does..
+  - [ ] different template with HTML Build
 
 ## Dependencies
 ESDoc 1.0
