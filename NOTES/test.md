@@ -23,6 +23,7 @@
  - [ ] Nightwatch (user experience validation)  
  - [ ] Jest  (React components -- Don't think jest is just react)  
  - [ ] Testing Best Practices/Ideas: https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347
+ - [ ] Property Testing: https://github.com/dubzzz/fast-check#readme
 
 ## Ideas
  - Cucumber js style (TDD) validation (validate.js style)
