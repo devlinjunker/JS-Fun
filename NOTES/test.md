@@ -24,6 +24,7 @@
  - [ ] Jest  (React components -- Don't think jest is just react)  
  - [ ] Testing Best Practices/Ideas: https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347
  - [ ] Property Testing: https://github.com/dubzzz/fast-check#readme
+ - [ ] Snapshot Testing?
 
 ## Ideas
  - Cucumber js style (TDD) validation (validate.js style)
@@ -91,3 +92,18 @@ Test running framework, for configuring how to run tests which frameworks and sp
 ## Contract Testing
 
 Pact and PactJS for Microservice contract testing, define what you expect endpoint to return and will also help you test that your expectations from endpoint will be met.
+
+
+## Test Doubles
+Generic term for any kind of pretend object used in place of a real object for testing purposes
+
+**Dummy** objects are passed around but never actually used. Usually they are just used to fill parameter lists.
+**Fake** objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an in memory database is a good example).
+**Stubs** provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
+**Spies** are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
+**Mocks** are objects pre-programmed with expectations which form a specification of the calls they are expected to receive.
+
+ - Avoid mocks in favor of stubs and spies
+ - Look into Fakes
+ - Don't focus on internal expectations
+  - Do I use it to test functionality that appears, or could appear, in the requirements document? If no, it’s a smell of white-box testing.
