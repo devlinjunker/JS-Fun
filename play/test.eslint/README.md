@@ -8,16 +8,16 @@ Testing ESLint configurations. Thoughts about ESLint or open questions will be l
  - [x] Require Comment File Headers https://github.com/Stuk/eslint-plugin-header  
   - Check webpack test project  
  - [x] YAML Configuration file  
- - [..] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
+ - [x] Flowtype Rules https://github.com/gajus/eslint-plugin-flowtype
  - [ ] Module Import Rules: https://www.npmjs.com/package/eslint-plugin-import
  - Rules to add:
-  - [ ] Warn on no await: https://eslint.org/docs/rules/require-await  
+  - [x] Warn on no await: https://eslint.org/docs/rules/require-await  
   - [ ] No destructuring during import. Use separate line
   - [ ] exports follow conventions
   - [ ] spaces inside brackets (functions, objects)
-  - [ ] file name rules: https://www.npmjs.com/package/eslint-plugin-filenames
-  - [ ] Naming conventions
-    - variables_with_underscores
+  - [x] file name rules: https://www.npmjs.com/package/eslint-plugin-filenames
+  - ~[ ] Naming conventions~
+    - variables_with_underscores (doesn't seem possible with eslint... all plugins are not great)
     - dont_use_underscore_for_trailing_numbers1
     - CONSTANTS_WITH_CAPS
     - class_instance.methodsWithCamelCase
