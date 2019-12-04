@@ -19,7 +19,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
  - [ ] HTML Linter  
    - https://github.com/htmlhint/HTMLHint/wiki/Rules
  - [ ] css linting
-   - stylelint
+   - stylelint https://github.com/notable/notable
    - cssnano
  - [ ] Typescript
  - [ ] VS Code/Atom IDE debug scripts for server/spec files (Atom Node-Debugger, VSCode launch.json)
