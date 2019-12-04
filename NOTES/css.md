@@ -16,3 +16,4 @@
 - naming conventions
  - html-element-names-and-css-classes-with-dashes
 - Design Systems: https://www.learnstorybook.com/design-systems-for-developers/react/en/introduction/
+- [ ] CSS Linting: https://github.com/notable/notable
