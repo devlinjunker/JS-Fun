@@ -15,3 +15,4 @@
  - [ ] Takenote/Notable for managing notes
    - https://github.com/taniarascia/takenote
    - https://github.com/notable/notable
+ - [ ] phaser.io

@@ -28,3 +28,12 @@
  - [ ] Kafka (Event Processing)
    - https://kafka.apache.org/documentation/#gettingStarted  
  - [ ] Fabric? (Python package for bash/ssh configuration)
+ - [ ] Adonis.JS (Node Server/UI? framework)
+   - authentication
+   - SQL ORM, migrations and seeds
+   - support for i18n
+   - testing support
+   - written in plain javascript
+ - [ ] Aurelia JS (Frontend DOM Manipulation/Creation - Responsive/Quick)
+ - [ ] GoAccess (Real Time Web Log Analyzer)
+ - [ ] Uptime Robot (Watch Apps for Downtime) 
