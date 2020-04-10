@@ -19,4 +19,8 @@
  - [ ] Cadet for feature suggestions/tracking
  - [ ] Digital Ocean vs AWS?
  - [ ] Fabric (Python)
- 
+ - [ ] GoAccess (Real Time Web Log Analyzer)
+ - [ ] Uptime Robot (Watch Apps for Downtime) 
+ - [ ] Datadog - Resource monitoring (AWS, others)
+ - [ ] Slack integrations
+ - [ ] Rollbar - for watching exceptions and alerts
