@@ -12,7 +12,10 @@
  - [ ] Kajero Markdown Editing: https://github.com/JoelOtter/kajero
  - [ ] Headroom (hiding header): http://wicky.nillia.ms/headroom.js/
  - [ ] Full Page Background Video: https://rishabhp.github.io/bideo.js/
- - [ ] Takenote/Notable for managing notes
+ - [..] Takenote/Notable for managing notes
    - https://github.com/taniarascia/takenote
-   - https://github.com/notable/notable
+     - [ ] gist integration
+     - [ ] tags vs categories
+     - [ ] github repo integration
+     - [ ] Daily notes (next to scratchpad)
  - [ ] phaser.io
