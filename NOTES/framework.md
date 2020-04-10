@@ -35,5 +35,3 @@
    - testing support
    - written in plain javascript
  - [ ] Aurelia JS (Frontend DOM Manipulation/Creation - Responsive/Quick)
- - [ ] GoAccess (Real Time Web Log Analyzer)
- - [ ] Uptime Robot (Watch Apps for Downtime) 
