@@ -15,7 +15,7 @@ js-refactor plugin: ``ctrl+alt+'R'``
  - [x] Flow -  Static Type Checker (Extension of Javascript) - Seem to need Babel (or Webpack?) for this...  
    - https://flow.org/en/docs/types/   
  - [x] EsLint - Linter (Checking for JS errors) - Need this and Webpack/Babel apparently...  
- - [ ] Madge (https://github.com/pahen/madge) javascript dependency graphing
+ - [x] Madge (https://github.com/pahen/madge) javascript dependency graphing
  - [ ] HTML Linter  
    - https://github.com/htmlhint/HTMLHint/wiki/Rules
  - [ ] css linting
@@ -73,7 +73,7 @@ precompiled JS files (React/Webpack especially)
      - [ ] exported to api
      - [ ] not just clients? can we do this with backend endpoints
  - [ ] Swagger/OpenAPI Endpoint Documentation and testing?
- - [ ] Health Check?
+ - [x] Health Check?
  - [ ] Performance Logging (track with request with unique id)
  - [ ] GELF ELK Logging
  - [ ] Review Design Patterns and Anti-Patterns (https://sourcemaking.com/design_patterns)
