@@ -13,17 +13,17 @@
    - [ ] Sentry - Catch Exceptions and correspond to commits
  - [ ] Datadog - Resource monitoring 
    - EC2
-   - Sentry
+   - Sentry/Rollbar
    - Github
    - Ansible?
    - Redis/ElasticCache
  - [ ] Slack integrations
  - [ ] GoAccess (Real Time Web Log Analyzer)
- - [ ] Travis CI / Jenkins  
  - [x] EsDoc Badge (See EsDoc)   
- - ~~[ ] Go/CD?~~
-  - ~~better pipeline staging (allowing for only single stage re-runs)~~
-  - Github Actions will suffice for now
+ - [..] Github Actions 
+   - ~~[ ] Go/CD?~~
+   - ~~better pipeline staging (allowing for only single stage re-runs)~~
+   - ~~[ ] Travis CI / Jenkins~~
  - [ ] Gitlab instance?  
  - [ ] nagios?
  - [ ] Buck Build System: https://buckbuild.com/
