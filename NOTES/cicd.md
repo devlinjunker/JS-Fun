@@ -8,20 +8,27 @@
  - [ ] Codecov (or istanbul badge https://github.com/intuit/istanbul-cobertura-badger)  
  - [ ] Health check Portal?
  - [ ] auto (automatic release by PR) https://github.com/intuit/auto 
+ - Error Notification
+   - [ ] Rollbar - for watching exceptions and alerts
+   - [ ] Sentry - Catch Exceptions and correspond to commits
+ - [ ] Datadog - Resource monitoring 
+   - EC2
+   - Sentry
+   - Github
+   - Ansible?
+   - Redis/ElasticCache
+ - [ ] Slack integrations
+ - [ ] GoAccess (Real Time Web Log Analyzer)
  - [ ] Travis CI / Jenkins  
- - [ ] Buck Build System: https://buckbuild.com/
  - [x] EsDoc Badge (See EsDoc)   
- - [ ] Go/CD?
-  - better pipeline staging (allowing for only single stage re-runs)
- - [ ] Gitlab instance  
+ - ~~[ ] Go/CD?~~
+  - ~~better pipeline staging (allowing for only single stage re-runs)~~
+  - Github Actions will suffice for now
+ - [ ] Gitlab instance?  
  - [ ] nagios?
+ - [ ] Buck Build System: https://buckbuild.com/
  - [ ] Bugsnag for reporting bugs?
  - [ ] Cadet for feature suggestions/tracking
  - [ ] Digital Ocean vs AWS?
  - [ ] Fabric (Python)
- - [ ] GoAccess (Real Time Web Log Analyzer)
  - [ ] Uptime Robot (Watch Apps for Downtime) 
- - [ ] Datadog - Resource monitoring (AWS, others)
- - [ ] Slack integrations
- - [ ] Rollbar - for watching exceptions and alerts
- - [ ] Sentry - Catch Exceptions and correspond to commits
