@@ -24,3 +24,4 @@
  - [ ] Datadog - Resource monitoring (AWS, others)
  - [ ] Slack integrations
  - [ ] Rollbar - for watching exceptions and alerts
+ - [ ] Sentry - Catch Exceptions and correspond to commits
