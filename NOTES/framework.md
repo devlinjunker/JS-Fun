@@ -35,3 +35,7 @@
    - testing support
    - written in plain javascript
  - [ ] Aurelia JS (Frontend DOM Manipulation/Creation - Responsive/Quick)
+ - Game engines
+   - PixiJS
+   - PhaserIO
+   - Redux for simple example? Seems a little silly 
