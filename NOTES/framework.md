@@ -35,7 +35,9 @@
    - testing support
    - written in plain javascript
  - [ ] Aurelia JS (Frontend DOM Manipulation/Creation - Responsive/Quick)
- - Game engines
+ - Game engines 
+   - Simple examples: http://slicker.me/javascript/ac2/chickens2.htm
    - PixiJS
    - PhaserIO
    - Redux for simple example? Seems a little silly 
+     - https://blog.usejournal.com/making-an-rpg-with-react-redux-dcfffdb06797
