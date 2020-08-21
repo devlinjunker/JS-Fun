@@ -4,7 +4,7 @@
    - https://www.meteor.com/tutorials/react/creating-an-app  
    - https://guide.meteor.com/index.html  
    - looks dead as of research May 2019
- - [ ] Backbone (For UI Model-View Binding)
+ - [x] Backbone (For UI Model-View Binding)
  - [ ] Redux (Single Application State?)
    - https://redux.js.org/introduction/examples  
    - [ ] on Backend: https://blog.webbylab.com/redux-on-backend/
@@ -15,7 +15,7 @@
    - [ ] React Native  
    - [ ] Server Side Rendering (Next.js / Gatsby) https://redux.js.org/recipes/server-rendering   
  - [ ] Bootstrap (UI)  
- - [ ] Foundation (UI Framework?)
+ - [x] Foundation (UI Framework?)
  - [ ] Express.js (Server Framework)
  - [ ] Ember (for UI instead of react)
  - [ ] Angular 2  (UI Instead of React)
